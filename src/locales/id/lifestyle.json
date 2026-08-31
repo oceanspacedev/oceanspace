@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "eyebrow": "Unit Bisnis: Lifestyle",
+    "headingPart1": "Mengembangkan unit lifestyle dan ",
+    "headingHighlight": "layanan terpadu",
+    "headingPart2": ".",
+    "desc": "Menjadi kelompok usaha lifestyle nasional yang dipercaya, memberikan pengalaman berkualitas, dan bertumbuh secara sehat melalui kejujuran serta kinerja unggul.",
+    "entitiesLabel": "Entitas operasional resmi",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier",
+    "heroAlt": "Layanan Lifestyle Ocean Space"
+  },
+  "visionMission": {
+    "eyebrow": "Visi & Misi",
+    "heading": "Arah utama unit bisnis Lifestyle.",
+    "desc": "Empat prinsip panduan utama yang mengarahkan pengembangan bisnis dan pelayanan kami.",
+    "highlights": [
+      {
+        "id": "SOROTAN 01",
+        "title": "Aman & Bertanggung Jawab",
+        "desc": "Menyediakan produk, layanan, dan pengalaman lifestyle yang transparan bagi pelanggan, mitra, dan komunitas."
+      },
+      {
+        "id": "SOROTAN 02",
+        "title": "Standar Operasional Unggul",
+        "desc": "Menghadirkan standar layanan yang konsisten, profesional, dan berkinerja tinggi di setiap unit usaha."
+      },
+      {
+        "id": "SOROTAN 03",
+        "title": "Hubungan Jangka Panjang",
+        "desc": "Fokus pada kenyamanan pelanggan serta lingkungan kerja yang aman, adil, dan bertumbuh bagi seluruh tim."
+      },
+      {
+        "id": "SOROTAN 04",
+        "title": "Pertumbuhan Disiplin",
+        "desc": "Mengembangkan unit usaha dan titik komunitas secara bertahap sesuai kebutuhan riil pasar dan nilai dasar perusahaan."
+      }
+    ]
+  },
+  "missions": {
+    "eyebrow": "Lima Misi",
+    "heading": "Lima misi utama operasional.",
+    "desc": "Komitmen dasar yang kami terapkan secara konsisten di setiap lini aktivitas lifestyle.",
+    "items": [
+      {
+        "id": "01",
+        "desc": "Menyediakan produk, layanan, dan pengalaman lifestyle yang aman, transparan, dan bertanggung jawab kepada pelanggan, mitra, dan komunitas."
+      },
+      {
+        "id": "02",
+        "desc": "Menghadirkan standar layanan dan operasional yang unggul, konsisten, dan profesional di setiap unit usaha."
+      },
+      {
+        "id": "03",
+        "desc": "Membangun hubungan jangka panjang dengan pelanggan serta menciptakan lingkungan kerja yang aman, adil, dan bertumbuh bagi tim."
+      },
+      {
+        "id": "04",
+        "desc": "Mengembangkan unit usaha dan komunitas secara bertahap, disiplin, dan berkelanjutan sesuai kebutuhan pasar dan nilai perusahaan."
+      },
+      {
+        "id": "05",
+        "desc": "Menyelesaikan setiap komitmen layanan, kegiatan operasional, dan tanggung jawab sosial dengan tuntas dan dapat dipertanggungjawabkan."
+      }
+    ]
+  },
+  "coreVision": {
+    "eyebrow": "Visi Utama",
+    "heading": "Menjadi kelompok usaha lifestyle yang dipercaya.",
+    "desc": "Menghadirkan pelayanan jujur dan kinerja unggul untuk menjamin pertumbuhan yang sehat dan berkelanjutan.",
+    "pillars": [
+      {
+        "tag": "PILAR 01",
+        "title": "Kelompok Usaha yang Dipercaya",
+        "desc": "Menjunjung tinggi standar integritas kerja di setiap lini transaksi pelayanan agar menjadi mitra tepercaya bagi publik."
+      },
+      {
+        "tag": "PILAR 02",
+        "title": "Pengalaman Berkualitas",
+        "desc": "Tumbuh secara sehat melalui peningkatan layanan yang bermutu untuk memenuhi kebutuhan gaya hidup modern."
+      },
+      {
+        "tag": "PILAR 03",
+        "title": "Tuntas & Bertanggung Jawab",
+        "desc": "Memenuhi setiap komitmen bisnis, operasional harian, dan tanggung jawab sosial secara utuh dan transparan."
+      }
+    ]
+  },
+  "closingCta": {
+    "eyebrow": "Langkah berikutnya",
+    "heading": "Hubungi tim Ocean Space.",
+    "desc": "Buka halaman kontak atau lihat lowongan yang sedang dibuka.",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier"
+  }
+}

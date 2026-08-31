@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 const LIVE_CAREER_API_BASE = 'https://cesa.completeselular.com/api';
 const JOBS_ROUTE_PATTERN = new RegExp(`${LIVE_CAREER_API_BASE.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}/jobs(?:\\?.*)?$`);
@@ -146,7 +146,7 @@ test.describe('Career Page Jobs Flow', () => {
         return;
       }
 
-      expect(requestUrl.searchParams.get('per_page')).toBe('12');
+      expect(requestUrl.searchParams.get('per_page')).toBe('6');
       await route.fulfill(createJsonCorsResponse(mockJobsPageOne));
     });
 
@@ -154,8 +154,8 @@ test.describe('Career Page Jobs Flow', () => {
       await route.fulfill(createJsonCorsResponse(mockJobDetailDataWithFiles));
     });
 
-    await page.goto('/career.html');
-    await expect.poll(() => page.evaluate(() => window.OceanSpaceCareerApi.baseUrl)).toBe(LIVE_CAREER_API_BASE);
+    await page.goto('/career');
+    await expect.poll(() => page.evaluate(() => window.OceanSpaceCareerApi?.baseUrl), { timeout: 15000 }).toBe(LIVE_CAREER_API_BASE);
 
     await expect(page.locator('h3:has-text("Backend Developer")')).toBeVisible();
     await expect(page.locator('h3:has-text("Frontend Developer")')).toHaveCount(0);
@@ -169,13 +169,13 @@ test.describe('Career Page Jobs Flow', () => {
 
     const openBtn = page.locator('[data-job-link="backend-developer"]');
     await openBtn.click();
-    await expect(page).toHaveURL(/.*career-apply\.html\?job=backend-developer/);
+    await expect(page).toHaveURL(/career-apply\/?\?job=backend-developer/);
 
     await expect(page.locator('#apply-page-title')).toContainText('Backend Developer');
     await expect(page.locator('input[name="full_name"]')).toBeVisible();
     await expect(page.locator('input[name="email"]')).toBeVisible();
-    await expect(page.locator('text=Format yang diterima backend: PDF, DOC, atau DOCX. Ukuran maksimal 5 MB.')).toBeVisible();
-    await expect(page.locator('text=Format yang diterima backend: JPG, JPEG, PNG, atau WEBP. Ukuran maksimal 5 MB.')).toBeVisible();
+    await expect(page.locator('text=PDF, DOC, DOCX · maks. 5 MB')).toBeVisible();
+    await expect(page.locator('text=JPG, PNG, WEBP · maks. 5 MB')).toBeVisible();
   });
 
   test('Should submit search and location filters using the new query params', async ({ page }) => {
@@ -185,7 +185,7 @@ test.describe('Career Page Jobs Flow', () => {
       const location = requestUrl.searchParams.get('location');
 
       if (search === 'sales' && location === 'Jakarta') {
-        expect(requestUrl.searchParams.get('per_page')).toBe('12');
+        expect(requestUrl.searchParams.get('per_page')).toBe('6');
         expect(requestUrl.searchParams.get('page')).toBe('1');
         await route.fulfill(createJsonCorsResponse(mockFilteredJobsData));
         return;
@@ -194,7 +194,8 @@ test.describe('Career Page Jobs Flow', () => {
       await route.fulfill(createJsonCorsResponse(mockJobsPageOne));
     });
 
-    await page.goto('/career.html');
+    await page.goto('/career');
+    await expect(page.locator('h3:has-text("Backend Developer")')).toBeVisible();
     await page.locator('#jobs-search').fill('sales');
     await page.locator('#jobs-location').fill('Jakarta');
     await page.locator('#jobs-filters button[type="submit"]').click();
@@ -202,7 +203,8 @@ test.describe('Career Page Jobs Flow', () => {
     await expect(page.locator('h3:has-text("Sales Jakarta")')).toBeVisible();
     await expect(page).toHaveURL(/search=sales/);
     await expect(page).toHaveURL(/location=Jakarta/);
-    await expect(page.locator('#jobs-results-meta')).toContainText('Filter aktif');
+    await expect(page.locator('#jobs-container article')).toHaveCount(1);
+    await expect(page.locator('#jobs-load-more-wrap')).toBeHidden();
   });
 
   test('Should submit the application form gracefully on dedicated page', async ({ page }) => {
@@ -215,7 +217,7 @@ test.describe('Career Page Jobs Flow', () => {
       await route.fulfill(createJsonCorsResponse(mockApplySuccessData, 201));
     });
 
-    await page.goto('/career-apply.html?job=backend-developer');
+    await page.goto('/career-apply?job=backend-developer');
 
     const fullNameInput = page.locator('input[name="full_name"]');
     await expect(fullNameInput).toBeVisible();
@@ -243,10 +245,10 @@ test.describe('Career Page Jobs Flow', () => {
       }, 422));
     });
 
-    await page.goto('/career-apply.html?job=backend-developer');
+    await page.goto('/career-apply?job=backend-developer');
 
     await page.locator('input[name="full_name"]').fill('Test Error User');
-    await page.evaluate(() => { document.querySelector('#apply-form').noValidate = true; });
+    await page.locator('input[name="email"]').fill('error@test.com');
     await page.locator('#btn-submit').click();
 
     await expect(page.locator('#form-alerts')).toBeVisible();
@@ -266,7 +268,7 @@ test.describe('Career Page Jobs Flow', () => {
       await route.fulfill(createJsonCorsResponse(mockApplySuccessData, 201));
     });
 
-    await page.goto('/career-apply.html?job=backend-developer');
+    await page.goto('/career-apply?job=backend-developer');
 
     await page.locator('input[name="full_name"]').fill('Test File Limit User');
     await page.locator('input[name="email"]').fill('file-limit@test.com');

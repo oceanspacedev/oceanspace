@@ -1,18 +1,21 @@
-const { test, expect } = require('@playwright/test');
-const AxeBuilder = require('@axe-core/playwright').default;
+import { test, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
 
 test.describe('UI Audit based on Impeccable Style', () => {
 
-  const pagesToTest = ['/', '/career.html', '/contact.html'];
+  const pagesToTest = ['/', '/career', '/contact'];
   const maxEagerImagesByPage = {
     '/': 2,
-    '/career.html': 1,
-    '/contact.html': 1,
+    '/career': 1,
+    '/contact': 1,
   };
 
   for (const pagePath of pagesToTest) {
     test(`Audit ${pagePath}`, async ({ page }, testInfo) => {
       await page.goto(pagePath);
+    
+    // Let the entrance transition (scale/fade, ~0.4s) settle before measuring
+    await page.waitForTimeout(800);
       
       // 1. Accessibility
       const accessibilityScanResults = await new AxeBuilder({ page })

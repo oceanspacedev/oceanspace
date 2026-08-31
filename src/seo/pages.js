@@ -241,11 +241,99 @@ ${SHARED_CLOSING}`,
   },
 }
 
-export function getPageSeo(pathname) {
+/** @type {Record<string, PageSeo>} */
+export const PAGE_SEO_EN = {
+  '/': {
+    path: '/',
+    title: 'Ocean Space | Growing with Integrity',
+    description:
+      'Ocean Space manages distribution, retail, sub-retail, and lifestyle with clear governance and JUJUR culture across Indonesia.',
+    h1: 'Ocean Space operates four business units with clear governance and disciplined execution.',
+  },
+  '/about': {
+    path: '/about',
+    title: 'About Ocean Space | Integrity and Execution Discipline',
+    description:
+      'Ocean Space profile: integrity, disciplined execution, and an integrated ecosystem spanning distribution to lifestyle under unified governance.',
+    h1: 'Ocean Space grows through integrity and execution discipline.',
+  },
+  '/distribusi': {
+    path: '/distribusi',
+    title: 'Phone Distribution | Ocean Space',
+    description:
+      'Ocean Space Phone Distribution unit distributes devices with a nationwide logistics network, brand partners, and consistent service SLAs.',
+    h1: 'Becoming a trusted national distribution company.',
+  },
+  '/retail': {
+    path: '/retail',
+    title: 'Retail Mobile Phones & Accessories | Ocean Space',
+    description:
+      'Ocean Space Retail unit delivers retail mobile phone and accessory stores with superior customer service and sustainable growth.',
+    h1: 'Becoming the most trusted phone and accessory retailer.',
+  },
+  '/sub-retail': {
+    path: '/sub-retail',
+    title: 'Sub-Retail Household Tech | Ocean Space',
+    description:
+      'Ocean Space Sub-Retail unit builds a trusted smart household technology and retail services ecosystem for partners and consumers.',
+    h1: 'Becoming the most trusted household technology retail and services ecosystem.',
+  },
+  '/lifestyle': {
+    path: '/lifestyle',
+    title: 'Lifestyle & Integrated Services | Ocean Space',
+    description:
+      'Ocean Space Lifestyle unit provides integrated hospitality and consumer services, brand trust, and operational excellence.',
+    h1: 'Managing lifestyle ventures and integrated consumer services.',
+  },
+  '/career': {
+    path: '/career',
+    title: 'Careers | Ocean Space',
+    description:
+      'Explore official career opportunities and open positions at Ocean Space across four business units.',
+    h1: 'Join Ocean Space and grow with integrity.',
+  },
+  '/career-apply': {
+    path: '/career-apply',
+    title: 'Job Application | Ocean Space',
+    description:
+      'Submit your application for open positions in the Ocean Space ecosystem.',
+    h1: 'Ocean Space Job Application',
+  },
+  '/contact': {
+    path: '/contact',
+    title: 'Contact Ocean Space | Corporate & Regional Network',
+    description:
+      'Connect with Ocean Space: Head Office in Jakarta (PIK) & Cirebon, and regional operational depots across Indonesia.',
+    h1: 'Contact the Ocean Space team.',
+  },
+  '/privacy': {
+    path: '/privacy',
+    title: 'Privacy Policy | Ocean Space',
+    description:
+      'Ocean Space privacy policy: collection, use, storage, and protection of visitor and candidate personal data.',
+    h1: 'Ocean Space Privacy Policy',
+  },
+  '/subprocessors': {
+    path: '/subprocessors',
+    title: 'Sub-processors & DPA | Ocean Space',
+    description:
+      'Ocean Space sub-processors disclosure and Data Processing Agreement (DPA) summary for site hosting and recruitment.',
+    h1: 'Sub-processors & Data Processing Agreement (DPA)',
+  },
+}
+
+export function getPageSeo(pathname, lang = 'id') {
   const normalized =
     pathname.length > 1 && pathname.endsWith('/')
       ? pathname.replace(/\/+$/, '')
       : pathname || '/'
+
+  if (lang && lang.startsWith('en')) {
+    const enPage = PAGE_SEO_EN[normalized] || PAGE_SEO_EN['/']
+    const basePage = PAGE_SEO[normalized] || PAGE_SEO['/']
+    return { ...basePage, ...enPage }
+  }
+
   return PAGE_SEO[normalized] || PAGE_SEO['/']
 }
 

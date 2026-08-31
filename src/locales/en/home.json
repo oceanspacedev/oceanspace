@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "titlePart1": "Four business units. One operational ",
+    "titleHighlight": "execution",
+    "titlePart2": " standard.",
+    "subtitle": "Unifying partnerships, expansion, and daily operations.",
+    "cta": "Contact Us",
+    "badge": "4 units · 16 active locations",
+    "mapAlt": "Ocean Space Indonesia Distribution Network Map - Hubs, Depots, and Corridors"
+  },
+  "marquee": {
+    "heading": "Powering ideas for disciplined growth"
+  },
+  "framework": {
+    "eyebrow": "How We Work",
+    "heading": "One standard for four units.",
+    "unit1": {
+      "tag": "Distribution",
+      "name": "Phone Distribution",
+      "desc": "Nationwide mobile phone and smart gadget distribution.",
+      "companies": "PT Media Selular Indonesia, PT Satu Media Indonesia & CV Top Selular",
+      "link": "Explore Distribution"
+    },
+    "unit2": {
+      "tag": "Direct Retail",
+      "name": "Retail",
+      "desc": "Direct retail phone and accessory stores with consistent service.",
+      "companies": "PT RISM & PT CSN",
+      "link": "Explore Retail"
+    },
+    "unit3": {
+      "tag": "Sub Retail",
+      "name": "Sub Retail",
+      "desc": "Smart household technology products across retail networks.",
+      "companies": "Complite+, Unboxing & Complete Selular",
+      "link": "Explore Sub Retail"
+    },
+    "unit4": {
+      "tag": "Lifestyle",
+      "name": "Lifestyle",
+      "desc": "Lifestyle services crafted for everyday life.",
+      "companies": "PT Mari Sukses Gemilang",
+      "link": "Explore Lifestyle"
+    },
+    "summary": {
+      "coreValue": "Core Values",
+      "coreValueSub": "5 group working principles",
+      "operations": "Operations",
+      "operationsTitle": "4 Business Units",
+      "operationsSub": "One working standard",
+      "network": "Network",
+      "networkTitle": "16 Operational Points",
+      "networkSub": "Java, Sulawesi, Sumatra"
+    }
+  },
+  "operations": {
+    "eyebrow": "Nationwide Operations",
+    "heading": "16 Points spanning across Java, Sulawesi, and Sumatra.",
+    "totalNetwork": "Total Network",
+    "totalNetworkCount": "16 Points",
+    "totalNetworkSub": "Actively operating",
+    "coverage": "Geographic Coverage",
+    "coverageCount": "3 Major Islands",
+    "coverageSub": "Java, Sulawesi, Sumatra",
+    "mapLabel": "National Network Map",
+    "mapTitle": "Indonesia Operational Coverage",
+    "mapBadge": "16 / 16 active locations",
+    "mapAlt": "Map of Indonesia showing 16 Ocean Space operational points across Java, Greater Jakarta, Sumatra, and Sulawesi",
+    "regions": {
+      "jawa": "Java",
+      "jawaCount": "7 Points",
+      "jabodetabek": "Greater Jakarta",
+      "jabodetabekCount": "3 Points",
+      "sumatera": "Sumatra",
+      "sumateraCount": "5 Points",
+      "sulawesi": "Sulawesi",
+      "sulawesiCount": "1 Point"
+    }
+  },
+  "culture": {
+    "eyebrow": "Work Culture",
+    "heading": "A culture that powers execution.",
+    "desc": "Five principles and four motivations that guide our day-to-day decisions.",
+    "ctaCareer": "View Careers",
+    "ctaCulture": "Explore JUJUR Culture",
+    "principlesLabel": "Five JUJUR Principles",
+    "principlesSub": "Core Values",
+    "principlesPrefix": "Principle",
+    "motivationsLabel": "Four Work Motivations",
+    "motivationsSub": "Driver Model",
+    "motivationsPrefix": "Motivation",
+    "principlesList": [
+      { "id": "01", "title": "J · Honesty & Integrity" },
+      { "id": "02", "title": "U · Performance Excellence" },
+      { "id": "03", "title": "J · Customer Care & Focus" },
+      { "id": "04", "title": "U · Resilience & Growth" },
+      { "id": "05", "title": "R · Sense of Ownership" }
+    ],
+    "motivationsList": [
+      { "id": "01", "title": "Fear" },
+      { "id": "02", "title": "Desire" },
+      { "id": "03", "title": "Duty" },
+      { "id": "04", "title": "Love" }
+    ]
+  },
+  "audiences": {
+    "card1": {
+      "label": "Partners",
+      "title": "Clear collaboration structure at a glance",
+      "desc": "Easily understand unit responsibilities and partnership channels without searching through multiple pages."
+    },
+    "card2": {
+      "label": "Candidates",
+      "title": "Concrete work culture",
+      "desc": "Our team translates JUJUR and the four motivations into genuine everyday working habits."
+    },
+    "card3": {
+      "label": "General Public",
+      "title": "Organized and structured governance",
+      "desc": "Information architecture and visual design reflect an orderly, well-managed organization."
+    }
+  },
+  "contactCta": {
+    "eyebrow": "Contact Ocean Space",
+    "heading": "Discuss partnerships, expansion, or career opportunities with our team.",
+    "desc": "Send corporate inquiries or collaboration opportunities through our unified contact channels.",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities"
+  }
+}

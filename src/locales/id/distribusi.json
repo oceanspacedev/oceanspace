@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "eyebrow": "Unit Bisnis: HP Distribusi",
+    "headingPart1": "Menjadi perusahaan distribusi terpercaya dengan satu standar ",
+    "headingHighlight": "eksekusi",
+    "headingPart2": ".",
+    "desc": "Penyalur resmi handphone dan perangkat teknologi skala nasional. Menumbuhkan brand dengan kejujuran, data akurat, dan komitmen tuntas di seluruh Indonesia.",
+    "entitiesLabel": "Entitas operasional resmi",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier",
+    "stats": {
+      "dealers": "5000+",
+      "dealersLabel": "Mitra Dealer Aktif",
+      "sla": "99.4%",
+      "slaLabel": "SLA Transaksi Penyaluran",
+      "entities": "3 Lini",
+      "entitiesLabel": "Entitas Resmi Terdaftar"
+    }
+  },
+  "directory": {
+    "eyebrow": "Jaringan Distribusi",
+    "heading": "17 Titik Kantor & Depo Wilayah",
+    "desc": "Melayani pasokan toko dan mitra ritel melalui jaringan kantor pusat, gudang, dan depo regional yang tersebar di Jabodetabek, Jawa, Sumatera, dan Sulawesi.",
+    "mapAlt": "Peta Jaringan Distribusi Ocean Space",
+    "tabs": {
+      "all": "Semua",
+      "jabodetabek": "Jabodetabek",
+      "jawa": "Jawa",
+      "sumatera": "Sumatera",
+      "sulawesi": "Sulawesi & Timur"
+    },
+    "regionsSummary": {
+      "jabodetabek": "4 Titik",
+      "jabodetabekLabel": "Jabodetabek",
+      "jawa": "5 Depo",
+      "jawaLabel": "Jawa",
+      "sumatera": "5 Hub",
+      "sumateraLabel": "Sumatera",
+      "sulawesi": "3 Hub",
+      "sulawesiLabel": "Sulawesi"
+    },
+    "pic": "PIC: {{name}}"
+  },
+  "missions": {
+    "eyebrow": "Prinsip Operasional",
+    "heading": "Lima misi utama HP Distribusi.",
+    "missionPrefix": "Misi",
+    "items": [
+      {
+        "id": "01",
+        "title": "Transparansi & Integritas",
+        "desc": "Menjalankan distribusi secara transparan, adil, dan bertanggung jawab kepada pelanggan, principal, dan mitra di setiap proses bisnis.",
+        "badge": "Keterbukaan Data Bisnis"
+      },
+      {
+        "id": "02",
+        "title": "Eksekusi Penyaluran Unggul",
+        "desc": "Mencapai kinerja penjualan dan distribusi yang unggul melalui disiplin eksekusi, data yang akurat, dan standar kerja yang konsisten.",
+        "badge": "Disiplin Operasional SLA"
+      },
+      {
+        "id": "03",
+        "title": "Hubungan Jangka Panjang",
+        "desc": "Membangun hubungan jangka panjang dengan pelanggan serta menciptakan lingkungan kerja yang saling menghargai, aman, dan bertumbuh bagi tim.",
+        "badge": "Kemitraan Berkelanjutan"
+      },
+      {
+        "id": "04",
+        "title": "Pengembangan Berkelanjutan",
+        "desc": "Mengembangkan organisasi, jangkauan wilayah, dan kapabilitas tim secara bertahap, disiplin, dan berkelanjutan bersama pertumbuhan brand.",
+        "badge": "Perluasan Kapasitas Terukur"
+      },
+      {
+        "id": "05",
+        "title": "Komitmen & Tanggung Jawab Tuntas",
+        "desc": "Menyelesaikan setiap komitmen pengiriman, kewajiban bisnis, dan penanganan purna jual dengan tuntas, tepat waktu, dan dapat dipertanggungjawabkan.",
+        "badge": "Akuntabilitas Purna Jual"
+      }
+    ]
+  },
+  "pillars": {
+    "eyebrow": "Kapabilitas Bisnis",
+    "heading": "Empat pilar utama operasional distribusi.",
+    "items": [
+      {
+        "id": "01",
+        "tag": "Pilar 01 · Logistik",
+        "title": "Logistik & Gudang",
+        "desc": "Manajemen stok terpusat di tiap depo regional dengan armada antar yang menjamin keamanan dan ketepatan barang.",
+        "detail": "SLA Pengiriman Tepat Waktu"
+      },
+      {
+        "id": "02",
+        "tag": "Pilar 02 · Mitra Brand",
+        "title": "Principal Resmi",
+        "desc": "Kepercayaan brand smartphone dalam mengelola alokasi produk, garansi resmi, dan strategi promosi regional.",
+        "detail": "Garansi Resmi 100%"
+      },
+      {
+        "id": "03",
+        "tag": "Pilar 03 · Pasokan",
+        "title": "Sistem Data Terukur",
+        "desc": "Pemantauan tren permintaan pasar dan estimasi stok regional untuk meminimalkan risiko kelangkaan unit.",
+        "detail": "Real-time Monitoring"
+      },
+      {
+        "id": "04",
+        "tag": "Pilar 04 · Ekosistem",
+        "title": "Dukungan Dealer",
+        "desc": "Pemesanan cepat, skema kemitraan transparan, dan pendampingan tim lapangan untuk pertumbuhan mitra retail.",
+        "detail": "5000+ Jaringan Mitra Toko"
+      }
+    ]
+  },
+  "closingCta": {
+    "eyebrow": "Langkah berikutnya",
+    "heading": "Hubungi tim Ocean Space.",
+    "desc": "Buka halaman kontak atau lihat lowongan yang sedang dibuka.",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier"
+  }
+}

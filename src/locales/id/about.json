@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "eyebrow": "Tentang Ocean Space",
+    "title": "Tumbuh lewat integritas dan disiplin eksekusi.",
+    "p1": "Ocean Space adalah grup usaha yang menaungi empat unit bisnis — distribusi, retail, sub retail, dan lifestyle. Kami berdiri di atas satu prinsip: bahwa pertumbuhan yang berkelanjutan hanya bisa dibangun dari standar kerja yang konsisten dan budaya yang jujur.",
+    "p2": "Dari jaringan distribusi nasional hingga gerai ritel dan titik komunitas, setiap unit beroperasi dalam satu bahasa yang sama — JUJUR. Lima prinsip ini menjadi fondasi bagaimana kami merekrut, mengeksekusi, dan bertumbuh.",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier"
+  },
+  "principles": {
+    "principlesCount": "5",
+    "principlesLabel": "Prinsip kerja",
+    "unitsCount": "4",
+    "unitsLabel": "Unit bisnis",
+    "cultureName": "JUJUR",
+    "cultureLabel": "Fondasi budaya",
+    "eyebrow": "Cara Grup Ini Bekerja",
+    "heading": "Lima prinsip yang menggerakkan setiap keputusan.",
+    "subtitle": "Nilai JUJUR diterjemahkan menjadi perilaku kerja nyata di setiap unit bisnis.",
+    "items": [
+      {
+        "id": "01",
+        "label": "Prinsip 01",
+        "title": "Jujur & Integritas",
+        "description": "Keputusan dari transparansi dan tanggung jawab.",
+        "detail": "Seluruh operasional berjalan dari data yang valid. Integritas memastikan setiap janji kerja selaras dengan eksekusi di lapangan."
+      },
+      {
+        "id": "02",
+        "label": "Prinsip 02",
+        "title": "Unggul Berkinerja",
+        "description": "Eksekusi disiplin dan mengejar kualitas.",
+        "detail": "Kami mengukur pencapaian berdasarkan indikator operasional yang jelas, mendorong setiap unit bekerja melampaui standar dasar."
+      },
+      {
+        "id": "03",
+        "label": "Prinsip 03",
+        "title": "Jaga Pelanggan",
+        "description": "Hubungan jangka panjang dengan penghargaan penuh.",
+        "detail": "Pelanggan dan mitra bisnis adalah pusat dari pertumbuhan grup. Pelayanan yang konsisten menjaga tingkat kepercayaan di setiap wilayah."
+      },
+      {
+        "id": "04",
+        "label": "Prinsip 04",
+        "title": "Ulet & Bertumbuh",
+        "description": "Selalu belajar memegang tanggung jawab lebih.",
+        "detail": "Tantangan lapangan dihadapi secara proaktif. Karyawan dan unit bisnis diberi ruang berkembang seiring bertambahnya kapasitas organisasi."
+      },
+      {
+        "id": "05",
+        "label": "Prinsip 05",
+        "title": "Rasa Memiliki",
+        "description": "Tanggung jawab penuh atas efisiensi dan hasil grup.",
+        "detail": "Menjaga aset, kualitas kerja, dan reputasi grup seolah milik sendiri. Memperkuat sinergi antar unit bisnis."
+      }
+    ]
+  },
+  "ecosystem": {
+    "eyebrow": "Peta Ekosistem",
+    "heading": "Empat unit bisnis, satu bahasa operasional.",
+    "subtitle": "Tiap unit menaungi badan usaha atau brand di bawah standar operasi yang sama.",
+    "unitPrefix": "Unit",
+    "commitments": "Komitmen utama",
+    "entities": "Entitas / Brand",
+    "viewUnit": "Lihat {{name}}",
+    "units": [
+      {
+        "id": "01",
+        "tag": "HP Distribusi",
+        "title": "Distribusi",
+        "desc": "Penyalur resmi handphone dan perangkat teknologi skala nasional. Menjadi perusahaan distribusi terpercaya yang menumbuhkan brand dengan jujur, unggul, dan berkelanjutan di Indonesia.",
+        "highlights": [
+          "Transparan, adil, dan bertanggung jawab kepada pelanggan & mitra",
+          "Kinerja unggul lewat disiplin eksekusi dan data akurat",
+          "Hubungan jangka panjang dengan lingkungan kerja yang bertumbuh",
+          "Komitmen tuntas dan tepat waktu"
+        ]
+      },
+      {
+        "id": "02",
+        "tag": "Retail",
+        "title": "Retail",
+        "desc": "Jaringan gerai langsung dengan standar pelayanan konsisten. Menjadi retail handphone dan aksesoris yang paling dipercaya pelanggan melalui kejujuran, pelayanan unggul, dan pertumbuhan berkelanjutan.",
+        "highlights": [
+          "Produk asli, bergaransi, dengan informasi harga transparan",
+          "Pelayanan cepat, tepat, dan profesional di setiap gerai",
+          "Lingkungan kerja yang adil dan aman bagi seluruh tim",
+          "Transaksi dan purna jual diselesaikan tuntas"
+        ]
+      },
+      {
+        "id": "03",
+        "tag": "Sub Retail",
+        "title": "Sub Retail",
+        "desc": "Tiga brand aktif menjangkau segmen komunitas lewat standar kerja yang sama. Menjadi ekosistem ritel serta layanan teknologi rumah tangga yang paling dipercaya, dibangun atas kejujuran, kinerja unggul, dan pertumbuhan berkelanjutan.",
+        "highlights": [
+          "Produk & layanan asli, transparan, penuh tanggung jawab",
+          "Standar kerja rapi, sistem disiplin, tim profesional",
+          "Hubungan jangka panjang dengan pelanggan dan komunitas",
+          "Purna jual dan perbaikan tuntas, dapat dipertanggungjawabkan"
+        ]
+      },
+      {
+        "id": "04",
+        "tag": "Lifestyle",
+        "title": "Lifestyle",
+        "desc": "Unit pendukung gaya hidup yang mengembangkan layanan terpadu di luar rantai distribusi. Menjadi kelompok usaha lifestyle yang dipercaya, memberi pengalaman berkualitas, dan bertumbuh secara sehat melalui kejujuran dan kinerja unggul.",
+        "highlights": [
+          "Layanan aman, transparan, dan bertanggung jawab kepada komunitas",
+          "Standar operasional unggul, konsisten, profesional di setiap unit usaha",
+          "Lingkungan kerja yang aman, adil, dan bertumbuh bagi tim",
+          "Komitmen layanan dan tanggung jawab sosial diselesaikan tuntas"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Bergabung dengan Ocean Space",
+    "heading": "Bangun karier di ekosistem yang tumbuh dengan integritas.",
+    "desc": "Lihat posisi yang tersedia atau hubungi tim korporat untuk peluang kemitraan.",
+    "ctaCareers": "Lihat peluang karier",
+    "ctaCorporate": "Hubungi tim korporat"
+  }
+}

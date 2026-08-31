@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "distribution": "Phone Distribution",
+    "retail": "Retail",
+    "subRetail": "Sub Retail",
+    "lifestyle": "Lifestyle",
+    "career": "Careers",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "subprocessors": "Sub-processors / DPA",
+    "sitemap": "Explore Sitemap",
+    "menu": "Menu",
+    "ariaLabel": "Main navigation",
+    "mobileAriaLabel": "Mobile main navigation",
+    "logoAriaLabel": "Ocean Space Home"
+  },
+  "actions": {
+    "career": "Careers",
+    "contact": "Contact",
+    "contactCorporate": "Contact corporate team",
+    "exploreCareers": "View career opportunities",
+    "viewLocationDetails": "View Location Details",
+    "backToHome": "Back to Home",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "applyNow": "Apply Now",
+    "readMore": "Read More",
+    "close": "Close",
+    "filterAll": "All"
+  },
+  "footer": {
+    "eyebrow": "Connect with Ocean Space",
+    "tagline": "Distribution, retail, sub-retail, and lifestyle. Four units, one operational standard.",
+    "company": "Company",
+    "businessUnits": "Business Units",
+    "operations": "Operations",
+    "operationalPoints": "16 Operational Points",
+    "activeDepos": "16 Active Depots",
+    "regionClusters": "4 Regional Clusters",
+    "copyright": "Ocean Space | Growing with Integrity, Driven by Execution.",
+    "developerCredit": "Built by Web App Developer"
+  },
+  "theme": {
+    "switchToDark": "Switch to Dark Mode",
+    "switchToLight": "Switch to Light Mode",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  },
+  "language": {
+    "switchLanguage": "Switch language",
+    "id": "ID",
+    "en": "EN",
+    "indonesian": "Bahasa Indonesia",
+    "english": "English"
+  }
+}

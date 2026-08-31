@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "eyebrow": "About Ocean Space",
+    "title": "Growing through integrity and disciplined execution.",
+    "p1": "Ocean Space is a corporate group overseeing four active business units — distribution, retail, sub-retail, and lifestyle. We stand on one defining principle: sustainable growth can only be built upon consistent operating standards and a culture of honesty.",
+    "p2": "From national distribution corridors to retail stores and community branches, every unit operates under one unified cultural language — the JUJUR framework (Jujur, Unggul, Jaga Pelanggan, Ulet, Rasa Memiliki). These five principles form the foundation of how we hire, execute, and grow.",
+    "ctaCorporate": "Contact corporate team",
+    "ctaCareers": "View career opportunities"
+  },
+  "principles": {
+    "unitsCount": "4",
+    "unitsLabel": "Business units",
+    "cultureName": "JUJUR",
+    "cultureLabel": "Cultural foundation",
+    "eyebrow": "How This Group Operates",
+    "heading": "Five principles that guide every decision.",
+    "subtitle": "The JUJUR framework translates our core cultural values into concrete daily behaviors across every business unit.",
+    "items": [
+      {
+        "id": "01",
+        "label": "JUJUR · Principle 01",
+        "title": "J — Honesty & Integrity",
+        "description": "Decisions rooted in transparency and true accountability.",
+        "detail": "All operations are backed by verified data. Integrity ensures every working promise aligns with real field execution."
+      },
+      {
+        "id": "02",
+        "label": "UNGGUL · Principle 02",
+        "title": "U — Performance Excellence",
+        "description": "Disciplined execution and continuous drive for quality.",
+        "detail": "We measure achievements using clear operational indicators, empowering each business unit to exceed foundational benchmarks."
+      },
+      {
+        "id": "03",
+        "label": "JAGA · Principle 03",
+        "title": "J — Customer Care & Focus",
+        "description": "Long-term relationships built with full respect.",
+        "detail": "Customers and business partners are at the heart of our group's growth. Consistent service safeguards high trust across all operational regions."
+      },
+      {
+        "id": "04",
+        "label": "ULET · Principle 04",
+        "title": "U — Resilience & Growth",
+        "description": "Proactive learning and taking on greater responsibilities.",
+        "detail": "Field challenges are tackled proactively. Employees and units are given space to grow in tandem with expanding organizational capacity."
+      },
+      {
+        "id": "05",
+        "label": "RASA MEMILIKI · Principle 05",
+        "title": "R — Sense of Ownership",
+        "description": "Full accountability for group efficiency and results.",
+        "detail": "Protecting assets, quality of work, and group reputation with personal ownership, driving synergy across all business units."
+      }
+    ]
+  },
+  "ecosystem": {
+    "eyebrow": "Ecosystem Map",
+    "heading": "Four business units, one operational language.",
+    "subtitle": "Each unit manages business entities and brands governed under identical operating standards.",
+    "unitPrefix": "Unit",
+    "commitments": "Key commitments",
+    "entities": "Entities / Brands",
+    "viewUnit": "Explore {{name}}",
+    "units": [
+      {
+        "id": "01",
+        "tag": "Phone Distribution",
+        "title": "Distribution",
+        "desc": "Official nationwide mobile phone and smart technology distributor. Becoming a trusted distribution company that grows brands honestly, excellently, and sustainably across Indonesia.",
+        "highlights": [
+          "Transparent, fair, and accountable to customers & partners",
+          "Superior performance driven by execution discipline and accurate data",
+          "Long-term relationships within a high-growth work environment",
+          "Thorough and timely commitment fulfillment"
+        ]
+      },
+      {
+        "id": "02",
+        "tag": "Retail",
+        "title": "Retail",
+        "desc": "Direct store network delivering consistent service standards. Becoming the most trusted retail store for mobile phones and accessories through honesty, superior service, and sustainable growth.",
+        "highlights": [
+          "Authentic, warrantied products with fully transparent pricing",
+          "Fast, accurate, and professional customer service in every store",
+          "A fair, secure, and supportive work environment for the entire team",
+          "Transactions and after-sales support completed to the highest standard"
+        ]
+      },
+      {
+        "id": "03",
+        "tag": "Sub Retail",
+        "title": "Sub Retail",
+        "desc": "Three active brands reaching community segments under unified operating standards. Building the most trusted household technology retail ecosystem, rooted in honesty, performance, and sustainable expansion.",
+        "highlights": [
+          "Authentic products & services, delivered with transparency and responsibility",
+          "Organized working standards, disciplined systems, and professional teams",
+          "Long-term relationships with customers and local communities",
+          "Reliable, accountable after-sales support and repairs"
+        ]
+      },
+      {
+        "id": "04",
+        "tag": "Lifestyle",
+        "title": "Lifestyle",
+        "desc": "Lifestyle support unit developing integrated hospitality and consumer experiences beyond distribution channels. A trusted lifestyle group delivering high-quality experiences.",
+        "highlights": [
+          "Safe, transparent, and responsible service for communities",
+          "Superior, consistent, and professional operational standards across all units",
+          "Safe, fair, and nurturing growth environment for teams",
+          "Complete follow-through on service commitments and social responsibility"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Join Ocean Space",
+    "heading": "Build a career in an ecosystem growing with integrity.",
+    "desc": "Explore open positions or contact our corporate team for partnership inquiries.",
+    "ctaCareers": "View career opportunities",
+    "ctaCorporate": "Contact corporate team"
+  }
+}

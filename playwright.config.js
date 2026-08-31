@@ -1,6 +1,6 @@
-const { defineConfig, devices } = require('@playwright/test');
+import { defineConfig, devices } from '@playwright/test';
 
-module.exports = defineConfig({
+export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
@@ -22,7 +22,7 @@ module.exports = defineConfig({
     },
   ],
   webServer: {
-    command: './node_modules/.bin/http-server . -p 8080 --cors',
+    command: 'npx http-server dist -p 8080 --cors',
     url: 'http://127.0.0.1:8080',
     reuseExistingServer: !process.env.CI,
   },

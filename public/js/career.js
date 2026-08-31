@@ -55,9 +55,12 @@ window.initCareer = () => {
     };
   }
 
+  const getLang = () => (document.documentElement.lang || localStorage.getItem('oceanspace_language') || 'id').startsWith('en') ? 'en' : 'id';
+
   const formatDate = (dateString) => {
+    const isEn = getLang() === 'en';
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString('id-ID', options);
+    return new Date(dateString).toLocaleDateString(isEn ? 'en-US' : 'id-ID', options);
   };
 
   const escapeHtml = (unsafe) => {
@@ -134,7 +137,7 @@ window.initCareer = () => {
     jobsLoadMoreWrap.classList.toggle('hidden', !visible);
     jobsLoadMoreWrap.classList.toggle('flex', visible);
     jobsLoadMoreButton.disabled = Boolean(disabled);
-    jobsLoadMoreButton.textContent = buttonLabel || 'Muat lebih banyak';
+    jobsLoadMoreButton.textContent = buttonLabel || (getLang() === 'en' ? 'Load more' : 'Muat lebih banyak');
     jobsLoadMoreStatus.textContent = statusMessage || '';
   };
 
@@ -143,27 +146,30 @@ window.initCareer = () => {
       return;
     }
 
+    const isEn = getLang() === 'en';
     const parts = [];
 
     if (state.filters.search) {
-      parts.push(`kata kunci "${state.filters.search}"`);
+      parts.push(isEn ? `keyword "${state.filters.search}"` : `kata kunci "${state.filters.search}"`);
     }
 
     if (state.filters.location) {
-      parts.push(`lokasi "${state.filters.location}"`);
+      parts.push(isEn ? `location "${state.filters.location}"` : `lokasi "${state.filters.location}"`);
     }
 
     if (!state.jobs.length) {
       jobsResultsMeta.textContent = parts.length
-        ? `Belum ada posisi yang cocok untuk ${parts.join(' dan ')}.`
-        : 'Menampilkan posisi terbaru dari Ocean Space.';
+        ? (isEn ? `No open positions found matching ${parts.join(' and ')}.` : `Belum ada posisi yang cocok untuk ${parts.join(' dan ')}.`)
+        : (isEn ? 'Showing latest open positions at Ocean Space.' : 'Menampilkan posisi terbaru dari Ocean Space.');
       return;
     }
 
-    const paginationText = `Menampilkan ${state.jobs.length} posisi.`;
+    const paginationText = isEn
+      ? `Showing ${state.jobs.length} open position${state.jobs.length > 1 ? 's' : ''}.`
+      : `Menampilkan ${state.jobs.length} posisi.`;
 
     jobsResultsMeta.textContent = parts.length
-      ? `${paginationText} Filter: ${parts.join(' dan ')}.`
+      ? `${paginationText} Filter: ${parts.join(isEn ? ' and ' : ' dan ')}.`
       : paginationText;
   };
 
@@ -172,9 +178,12 @@ window.initCareer = () => {
       jobsContainer.innerHTML = '';
     }
 
+    const isEn = getLang() === 'en';
+    const closingLabel = isEn ? 'Closes' : 'Ditutup';
+    const applyBtnLabel = isEn ? 'View details &amp; apply' : 'Lihat detail &amp; lamar';
+
     jobs.forEach((job) => {
       const card = document.createElement('article');
-      // motion-visible immediately: AJAX cards often stay opacity:0 if IO misses them
       card.className = 'comparison-card group motion-reveal motion-visible';
       card.setAttribute('data-motion-card', 'true');
 
@@ -188,11 +197,11 @@ window.initCareer = () => {
             <h3 class="comparison-card__title">${escapeHtml(formatJobTitle(job.title))}</h3>
             <div class="comparison-card__meta">
               <span class="comparison-card__meta-row comparison-card__meta-row--location"><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>${escapeHtml(job.location)}</span>
-              <span class="comparison-card__meta-row comparison-card__meta-row--closing"><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>Ditutup ${formatDate(job.closing_date)}</span>
+              <span class="comparison-card__meta-row comparison-card__meta-row--closing"><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>${closingLabel} ${formatDate(job.closing_date)}</span>
             </div>
           </div>
           <div class="comparison-card__action">
-            <a href="${getApplyUrl(job.slug)}" data-job-link="${escapeHtml(job.slug)}" data-motion-cta="true" class="button-primary">Lihat detail &amp; lamar</a>
+            <a href="${getApplyUrl(job.slug)}" data-job-link="${escapeHtml(job.slug)}" data-motion-cta="true" class="button-primary">${applyBtnLabel}</a>
           </div>
         </div>
       `;
@@ -396,4 +405,10 @@ window.initCareer = () => {
   syncFilterInputs();
   updateResultsMeta();
   fetchJobs();
+
+  window.addEventListener('oceanspace:languagechange', () => {
+    if (state.jobs.length) {
+      renderCurrentState();
+    }
+  }, { signal });
 };

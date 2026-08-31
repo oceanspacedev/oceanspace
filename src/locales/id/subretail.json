@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "eyebrow": "Unit Bisnis: Sub Retail",
+    "headingPart1": "Menjadi ekosistem ritel serta ",
+    "headingHighlight": "layanan teknologi",
+    "headingPart2": " rumah tangga yang paling dipercaya.",
+    "desc": "Kejujuran bersama kinerja unggul, dengan pertumbuhan berkelanjutan di setiap rantaian ritel dan layanan purna jual.",
+    "entitiesLabel": "Entitas operasional resmi",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier",
+    "heroAlt": "Layanan Sub Retail Ocean Space"
+  },
+  "visionMission": {
+    "eyebrow": "Visi & Misi",
+    "heading": "Arah utama unit bisnis Sub Retail.",
+    "desc": "Visi beserta misi yang memandu kerja unit ini dalam mengembangkan layanan berkualitas.",
+    "highlights": [
+      {
+        "id": "SOROTAN 01",
+        "title": "Asli, Transparan, & Bertanggung Jawab",
+        "desc": "Menyediakan produk serta layanan asli dengan informasi yang jelas serta proses yang adil bagi pelanggan."
+      },
+      {
+        "id": "SOROTAN 02",
+        "title": "Operasional Unggul",
+        "desc": "Pelayanan serta eksekusi operasional yang unggul melalui standar kerja yang rapi, sistem disiplin, and tim profesional."
+      },
+      {
+        "id": "SOROTAN 03",
+        "title": "Hubungan Jangka Panjang",
+        "desc": "Membangun relasi yang adil dan aman dengan pelanggan serta lingkungan kerja yang penuh saling menghargai bagi tim."
+      },
+      {
+        "id": "SOROTAN 04",
+        "title": "Pertumbuhan Berkelanjutan",
+        "desc": "Mengembangkan jaringan ritel dan kapabilitas tim secara bertahap sesuai kebutuhan riil pelanggan serta perkembangan pasar."
+      }
+    ]
+  },
+  "missions": {
+    "eyebrow": "Lima Misi",
+    "heading": "Lima misi utama operasional.",
+    "desc": "Komitmen utama kami di unit bisnis Sub Retail dalam menjaga kualitas transaksi dan kepercayaan konsumen.",
+    "items": [
+      {
+        "id": "01",
+        "desc": "Menyediakan produk serta layanan yang asli, transparan, penuh tanggung jawab, dengan informasi yang jelas serta proses yang adil bagi pelanggan."
+      },
+      {
+        "id": "02",
+        "desc": "Memberikan pelayanan serta eksekusi operasional yang unggul melalui standar kerja yang rapi, sistem yang disiplin, serta tim yang profesional."
+      },
+      {
+        "id": "03",
+        "desc": "Membangun hubungan jangka panjang dengan pelanggan serta menciptakan lingkungan kerja yang adil, aman, penuh saling menghargai bagi tim."
+      },
+      {
+        "id": "04",
+        "desc": "Mengembangkan jaringan, layanan, serta kapabilitas tim secara bertahap dan berkelanjutan sesuai kebutuhan pelanggan serta pasar."
+      },
+      {
+        "id": "05",
+        "desc": "Menyelesaikan setiap transaksi, layanan purna jual, perbaikan, serta komitmen pelanggan secara tuntas dan dapat dipertanggungjawabkan."
+      }
+    ]
+  },
+  "coreVision": {
+    "eyebrow": "Visi Utama",
+    "heading": "Menjadi ekosistem ritel & layanan teknologi paling tepercaya.",
+    "desc": "Dibangun di atas pilar kejujuran, kinerja unggul, serta pertumbuhan yang berkelanjutan.",
+    "pillars": [
+      {
+        "tag": "PILAR 01",
+        "title": "Paling Dipercaya",
+        "desc": "Menjadi ekosistem ritel serta layanan teknologi rumah tangga yang kredibel dan memiliki transparansi penuh."
+      },
+      {
+        "tag": "PILAR 02",
+        "title": "Kejujuran & Kinerja",
+        "desc": "Menjamin kepuasan pelanggan melalui integritas tinggi dan didukung oleh tim serta standar kerja unggul."
+      },
+      {
+        "tag": "PILAR 03",
+        "title": "Purna Jual & Perbaikan",
+        "desc": "Menyelesaikan setiap komitmen klaim garansi, layanan purna jual, dan transaksi secara tuntas dan bertanggung jawab."
+      }
+    ]
+  },
+  "closingCta": {
+    "eyebrow": "Langkah berikutnya",
+    "heading": "Hubungi tim Ocean Space.",
+    "desc": "Buka halaman kontak atau lihat lowongan yang sedang dibuka.",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier"
+  }
+}

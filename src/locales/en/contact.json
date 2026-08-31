@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "eyebrow": "Contact & Locations",
+    "heading": "Get in Touch with Ocean Space.",
+    "desc": "Discuss commercial partnerships, retail distribution expansion, or general inquiries with our corporate management team.",
+    "jakartaOffice": {
+      "tag": "Head Office · Jakarta",
+      "badge": "North Jakarta PIK",
+      "name": "Pantai Indah Kapuk (PIK)",
+      "address": "Rukan Golf Island Blok RGII No. 27–28, Jl. Pantai Maju Bersama, Pantai Indah Kapuk (PIK), Kamal Muara, Penjaringan, North Jakarta, DKI Jakarta 14470"
+    },
+    "cirebonOffice": {
+      "tag": "Head Office · Cirebon",
+      "badge": "West Java",
+      "name": "Petratean, Pekalipan",
+      "address": "Jl. Petratean No. 11B, Pekalipan, Kec. Pekalipan, Cirebon City, West Java 45118"
+    }
+  },
+  "form": {
+    "heading": "Send a Corporate Message",
+    "desc": "Fast response through our official communication channels.",
+    "online": "Online",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Business / Personal Email",
+    "emailPlaceholder": "name@company.com",
+    "messageLabel": "Message / Inquiry",
+    "messagePlaceholder": "Write your message, collaboration objectives, or questions...",
+    "submitting": "Preparing Message...",
+    "submit": "Send Message via WhatsApp",
+    "successTitle": "Opening Corporate WhatsApp...",
+    "successDesc": "Your message is ready to be sent. If WhatsApp did not open automatically, please click the button below.",
+    "openWaAgain": "Open WhatsApp Again",
+    "writeNewMessage": "Write New Message"
+  },
+  "facilities": {
+    "eyebrow": "Facilities & Work Environment",
+    "heading": "Integrated Work & Collaboration Spaces.",
+    "desc": "Modern office facilities thoughtfully designed for professional operations, transparency, and seamless group collaboration across Ocean Space.",
+    "expandLabel": "Click to expand",
+    "closeModal": "Close preview image",
+    "cards": {
+      "lobby": {
+        "tag": "Headquarters · Jakarta",
+        "title": "Main Lobby & Lounge",
+        "desc": "Official guest reception area and executive lounge at Ocean Space."
+      },
+      "entrance": {
+        "tag": "Exterior Building",
+        "title": "Building Entrance & Façade",
+        "desc": "Main entrance access and architectural facade of our headquarters."
+      },
+      "meeting": {
+        "tag": "Boardroom",
+        "title": "Smart Meeting Room",
+        "desc": "Executive conference room equipped with interactive displays."
+      },
+      "collab": {
+        "tag": "Discussion Hub",
+        "title": "Collaboration Room",
+        "desc": "Creative brainstorm and breakout discussion space."
+      }
+    }
+  }
+}

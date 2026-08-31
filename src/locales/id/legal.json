@@ -1,0 +1,72 @@
+{
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Kebijakan Privasi Ocean Space",
+    "summary": "Kebijakan ini menjelaskan bagaimana Ocean Space mengumpulkan, menggunakan, menyimpan, dan melindungi data pribadi pengunjung situs, mitra, serta pelamar karier.",
+    "lastUpdated": "Terakhir diperbarui: 22 Juli 2026",
+    "sections": {
+      "dataCollected": {
+        "title": "Data yang kami kumpulkan",
+        "desc": "Data dapat mencakup identitas dan kontak yang Anda kirim melalui formulir (nama, email, telepon, CV), data teknis kunjungan situs (alamat IP, jenis perangkat, halaman yang dibuka), serta komunikasi yang Anda kirim ke tim korporat."
+      },
+      "purpose": {
+        "title": "Tujuan penggunaan",
+        "desc": "Kami menggunakan data untuk merespons pertanyaan, memproses rekrutmen, menjaga keamanan situs, meningkatkan layanan, serta memenuhi kewajiban hukum yang berlaku di Indonesia."
+      },
+      "subprocessors": {
+        "title": "Sub-pemroses / pemrosesan data (DPA)",
+        "descPart1": "Untuk operasional situs dan rekrutmen, Ocean Space dapat menggunakan penyedia layanan pihak ketiga (sub-processor), termasuk hosting web, infrastruktur email, dan API rekrutmen terkait grup di ",
+        "descPart2": ". Akses data dibatasi pada kebutuhan layanan tersebut."
+      },
+      "yourRights": {
+        "title": "Hak Anda",
+        "desc": "Anda dapat meminta akses, koreksi, atau penghapusan data pribadi dengan menghubungi Head Office melalui halaman kontak. Kami akan menindaklanjuti permintaan sesuai ketentuan yang berlaku."
+      },
+      "contact": {
+        "title": "Kontak",
+        "descPart1": "Head Office: Jl. Pantai Maju Bersama RGII No. 27–28, Pantai Indah Kapuk, Jakarta Utara, 14460. Untuk pertanyaan privasi, gunakan saluran di halaman ",
+        "contactLink": "Kontak",
+        "descPart2": "."
+      }
+    },
+    "nextSteps": {
+      "eyebrow": "Langkah berikutnya",
+      "ctaCorporate": "Hubungi tim korporat",
+      "ctaHome": "Kembali ke beranda"
+    }
+  },
+  "subprocessors": {
+    "eyebrow": "Legal",
+    "title": "Sub-processor dan Data Processing Agreement (DPA)",
+    "summary": "Pengungkapan sub-processor / data-processing yang digunakan Ocean Space untuk hosting situs dan proses rekrutmen.",
+    "lastUpdated": "Terakhir diperbarui: 22 Juli 2026",
+    "sections": {
+      "hosting": {
+        "title": "Hosting situs",
+        "desc": "Infrastruktur web yang menayangkan oceanspace.co.id, termasuk aset statis dan pengiriman halaman. Tujuan: ketersediaan dan keamanan situs bagi pengunjung, mitra, serta kandidat."
+      },
+      "api": {
+        "title": "API rekrutmen (Complete Selular / CESA)",
+        "descPart1": "Layanan di ",
+        "descPart2": " mendukung daftar lowongan dan pengiriman lamaran. Tujuan: memproses data pelamar untuk seleksi dan komunikasi rekrutmen."
+      },
+      "social": {
+        "title": "Platform sosial",
+        "desc": "LinkedIn dan Instagram digunakan untuk informasi perusahaan dan karier. Interaksi di platform tersebut mengikuti kebijakan privasi masing-masing penyedia."
+      },
+      "dpa": {
+        "title": "Data Processing Agreement",
+        "descPart1": "Untuk pertanyaan DPA atau permintaan terkait data pribadi, hubungi Head Office melalui halaman ",
+        "contactLink": "Kontak",
+        "descPart2": " dan rujuk ",
+        "privacyLink": "Kebijakan Privasi",
+        "descPart3": "."
+      }
+    },
+    "nextSteps": {
+      "eyebrow": "Langkah berikutnya",
+      "ctaPrivacy": "Baca kebijakan privasi",
+      "ctaCorporate": "Hubungi tim korporat"
+    }
+  }
+}

@@ -39,10 +39,12 @@ window.initCareerApply = () => {
       maxSizeMessage: 'Ukuran file CV/Resume maksimal 5 MB.',
     }
   };
+  const getLang = () => (document.documentElement.lang || localStorage.getItem('oceanspace_language') || 'id').startsWith('en') ? 'en' : 'id';
 
   const formatDate = (dateString) => {
+    const isEn = getLang() === 'en';
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString('id-ID', options);
+    return new Date(dateString).toLocaleDateString(isEn ? 'en-US' : 'id-ID', options);
   };
 
   const escapeHtml = (unsafe) => {
@@ -258,6 +260,7 @@ window.initCareerApply = () => {
     const metaNode = shell.querySelector('[data-file-meta]');
     const actionNode = shell.querySelector('[data-file-action]');
     const emptyMeta = metaNode?.dataset.emptyMeta || '';
+    const isEn = getLang() === 'en';
 
     if (!file) {
       shell.classList.remove('has-file');
@@ -265,7 +268,7 @@ window.initCareerApply = () => {
         metaNode.textContent = emptyMeta;
       }
       if (actionNode) {
-        actionNode.textContent = 'Pilih';
+        actionNode.textContent = isEn ? 'Browse' : 'Pilih';
       }
       return;
     }
@@ -276,7 +279,7 @@ window.initCareerApply = () => {
       metaNode.textContent = size ? `${file.name} · ${size}` : file.name;
     }
     if (actionNode) {
-      actionNode.textContent = 'Ganti';
+      actionNode.textContent = isEn ? 'Change' : 'Ganti';
     }
   };
 
@@ -299,6 +302,7 @@ window.initCareerApply = () => {
 
   const getFileFieldMarkup = (field, options) => {
     const { fieldLabel, optionalNote, isRequired, acceptTypes, fileFormatNote } = options;
+    const isEn = getLang() === 'en';
 
     return `
       <div class="apply-file" data-file-field="${escapeHtml(field.name)}">
@@ -315,7 +319,7 @@ window.initCareerApply = () => {
             <span class="apply-file__title">${escapeHtml(fieldLabel)} ${optionalNote}</span>
             <span class="apply-file__meta" data-file-meta data-empty-meta="${escapeHtml(fileFormatNote)}">${escapeHtml(fileFormatNote)}</span>
           </span>
-          <span class="apply-file__action" data-file-action>Pilih</span>
+          <span class="apply-file__action" data-file-action>${isEn ? 'Browse' : 'Pilih'}</span>
         </label>
       </div>
       <p class="mt-2 hidden text-xs text-red-500" id="error-${escapeHtml(field.name)}"></p>
@@ -324,32 +328,34 @@ window.initCareerApply = () => {
 
   const renderRequirements = (text) => {
     requirementsNode.innerHTML = renderTextareaBlocks(text, {
-      emptyHtml: '<p>Informasi kualifikasi belum tersedia.</p>',
+      emptyHtml: `<p>${getLang() === 'en' ? 'Qualifications not yet available.' : 'Informasi kualifikasi belum tersedia.'}</p>`,
       lineList: true,
-      listClass: 'space-y-2.5 [&_li]:flex [&_li]:items-start [&_li]:gap-3 [&_li]:leading-7 [&_li]:text-[#556070] [&_li]:before:mt-2 [&_li]:before:inline-flex [&_li]:before:h-2 [&_li]:before:w-2 [&_li]:before:shrink-0 [&_li]:before:rounded-full [&_li]:before:bg-[#2563eb] [&_li]:before:content-[\"\"]',
-      paragraphClass: 'text-[15px] leading-7 text-[#556070]'
+      listClass: 'space-y-2.5 [&_li]:flex [&_li]:items-start [&_li]:gap-3 [&_li]:leading-7 [&_li]:text-[#556070] dark:[&_li]:text-slate-300 [&_li]:before:mt-2 [&_li]:before:inline-flex [&_li]:before:h-2 [&_li]:before:w-2 [&_li]:before:shrink-0 [&_li]:before:rounded-full [&_li]:before:bg-[#2563eb] [&_li]:before:content-[""]',
+      paragraphClass: 'text-[15px] leading-7 text-[#556070] dark:text-slate-300'
     });
   };
 
   const renderMeta = (job) => {
+    const isEn = getLang() === 'en';
     metaNode.innerHTML = `
-      <div class="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4">
-        <p class="font-mono text-[0.64rem] uppercase tracking-widest text-slate-500">Lokasi</p>
-        <p class="mt-2 text-sm font-semibold text-[#171a22]">${escapeHtml(job.location)}</p>
+      <div class="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 dark:border-slate-800 dark:bg-[#131824]">
+        <p class="font-mono text-[0.64rem] uppercase tracking-widest text-slate-500 dark:text-slate-400">${isEn ? 'Location' : 'Lokasi'}</p>
+        <p class="mt-2 text-sm font-semibold text-[#171a22] dark:text-white">${escapeHtml(job.location)}</p>
       </div>
-      <div class="rounded-2xl border border-slate-200 bg-white px-4 py-4">
-        <p class="font-mono text-[0.64rem] uppercase tracking-widest text-slate-500">Penutupan</p>
-        <p class="mt-2 text-sm font-semibold text-[#171a22]">${formatDate(job.closing_date)}</p>
+      <div class="rounded-2xl border border-slate-200 bg-white px-4 py-4 dark:border-slate-800 dark:bg-[#131824]">
+        <p class="font-mono text-[0.64rem] uppercase tracking-widest text-slate-500 dark:text-slate-400">${isEn ? 'Closing Date' : 'Penutupan'}</p>
+        <p class="mt-2 text-sm font-semibold text-[#171a22] dark:text-white">${formatDate(job.closing_date)}</p>
       </div>
     `;
   };
 
   const renderPrep = (job) => {
+    const isEn = getLang() === 'en';
     const fields = job.application_form || [];
     const prepItems = [];
 
     if (fields.some((field) => field.name === 'photo')) {
-      prepItems.push('Foto diri terbaru');
+      prepItems.push(isEn ? 'Recent passport photo' : 'Foto diri terbaru');
     }
 
     if (fields.some((field) => field.name === 'resume')) {
@@ -357,11 +363,11 @@ window.initCareerApply = () => {
     }
 
     if (fields.some((field) => field.name === 'whatsapp_number' || field.name === 'active_phone')) {
-      prepItems.push('Nomor kontak aktif');
+      prepItems.push(isEn ? 'Active contact number' : 'Nomor kontak aktif');
     }
 
     if (fields.some((field) => field.name && field.name.startsWith('emergency_contact_'))) {
-      prepItems.push('Kontak darurat');
+      prepItems.push(isEn ? 'Emergency contact' : 'Kontak darurat');
     }
 
     if (!prepItems.length) {
@@ -373,7 +379,7 @@ window.initCareerApply = () => {
     }
 
     prepNode.innerHTML = prepItems.map((item) => `
-      <li class="flex items-start gap-3">
+      <li class="flex items-start gap-3 text-sm text-[#556070] dark:text-slate-300">
         <span aria-hidden="true" class="mt-2 inline-flex h-2.5 w-2.5 shrink-0 rounded-full bg-[#2563eb]"></span>
         <span>${escapeHtml(item)}</span>
       </li>
@@ -383,17 +389,9 @@ window.initCareerApply = () => {
     }
   };
 
-  const groupDescriptions = {
-    'Data Diri': '',
-    'Alamat': '',
-    'Kontak': '',
-    'Kontak Darurat': '',
-    'Dokumen': '',
-    'Informasi Tambahan': '',
-  };
-
   const getFieldGroup = (field) => {
-    const groupMap = {
+    const isEn = getLang() === 'en';
+    const groupMapId = {
       full_name: 'Data Diri',
       email: 'Data Diri',
       gender: 'Data Diri',
@@ -410,16 +408,54 @@ window.initCareerApply = () => {
       resume: 'Dokumen',
     };
 
-    return groupMap[field.name] || 'Informasi Tambahan';
+    const groupMapEn = {
+      full_name: 'Personal Details',
+      email: 'Personal Details',
+      gender: 'Personal Details',
+      birth_date: 'Personal Details',
+      marital_status: 'Personal Details',
+      address_ktp: 'Address',
+      address_domicile: 'Address',
+      whatsapp_number: 'Contact',
+      active_phone: 'Contact',
+      emergency_contact_name: 'Emergency Contact',
+      emergency_contact_relation: 'Emergency Contact',
+      emergency_contact_phone: 'Emergency Contact',
+      photo: 'Documents',
+      resume: 'Documents',
+    };
+
+    const map = isEn ? groupMapEn : groupMapId;
+    return map[field.name] || (isEn ? 'Additional Information' : 'Informasi Tambahan');
   };
 
   const getFieldLabel = (field) => {
+    const isEn = getLang() === 'en';
     if (field.name === 'photo') {
-      return 'Foto diri';
+      return isEn ? 'Photo' : 'Foto diri';
     }
 
     if (field.name === 'resume') {
       return 'CV / Resume';
+    }
+
+    const enLabels = {
+      full_name: 'Full Name',
+      email: 'Email Address',
+      gender: 'Gender',
+      birth_date: 'Date of Birth',
+      marital_status: 'Marital Status',
+      address_ktp: 'ID Card Address (KTP)',
+      address_domicile: 'Current Domicile Address',
+      whatsapp_number: 'WhatsApp Number',
+      active_phone: 'Active Phone Number',
+      emergency_contact_name: 'Emergency Contact Name',
+      emergency_contact_relation: 'Emergency Contact Relation',
+      emergency_contact_phone: 'Emergency Contact Phone Number',
+    };
+
+    if (isEn && enLabels[field.name]) {
+      return enLabels[field.name];
     }
 
     return field.label || field.name || 'Field';
@@ -458,12 +494,12 @@ window.initCareerApply = () => {
   const renderFormStatus = (tone, title, message) => {
     const tones = {
       warning: {
-        panelClass: 'border-orange-100 bg-orange-50',
-        textClass: 'text-orange-700'
+        panelClass: 'border-orange-100 bg-orange-50 dark:bg-orange-950/30 dark:border-orange-900/50',
+        textClass: 'text-orange-700 dark:text-orange-300'
       },
       error: {
-        panelClass: 'border-red-100 bg-red-50',
-        textClass: 'text-red-700'
+        panelClass: 'border-red-100 bg-red-50 dark:bg-red-950/30 dark:border-red-900/50',
+        textClass: 'text-red-700 dark:text-red-300'
       }
     };
 
@@ -480,7 +516,10 @@ window.initCareerApply = () => {
   const renderForm = (job) => {
     formNode.innerHTML = '';
     formNode.setAttribute('data-slug', job.slug);
-    const groupOrder = ['Data Diri', 'Alamat', 'Kontak', 'Kontak Darurat', 'Dokumen', 'Informasi Tambahan'];
+    const isEn = getLang() === 'en';
+    const groupOrder = isEn
+      ? ['Personal Details', 'Address', 'Contact', 'Emergency Contact', 'Documents', 'Additional Information']
+      : ['Data Diri', 'Alamat', 'Kontak', 'Kontak Darurat', 'Dokumen', 'Informasi Tambahan'];
     const groups = new Map();
 
     (job.application_form || []).forEach((field) => {
@@ -506,12 +545,20 @@ window.initCareerApply = () => {
         const isRequired = field.required ? 'required' : '';
         const optionalNote = field.required
           ? '<span class="text-red-500">*</span>'
-          : '<span class="text-black/40 text-xs font-normal ml-1">(Opsional)</span>';
+          : `<span class="text-black/40 dark:text-slate-500 text-xs font-normal ml-1">(${isEn ? 'Optional' : 'Opsional'})</span>`;
         const fieldLabel = getFieldLabel(field);
-        const labelClass = 'block text-sm font-medium text-[#243041] mb-2';
+        const labelClass = 'block text-sm font-medium text-[#243041] dark:text-slate-200 mb-2';
         const inputClass = 'apply-input';
         const isLongField = field.type === 'textarea' || field.name === 'address_ktp' || field.name === 'address_domicile';
-        const placeholders = {
+        const placeholders = isEn ? {
+          full_name: 'Full name as on identity card',
+          email: 'name@email.com',
+          whatsapp_number: '08xxxxxxxxxx',
+          active_phone: '08xxxxxxxxxx',
+          emergency_contact_name: 'Emergency contact name',
+          emergency_contact_relation: 'e.g. Parent / Spouse',
+          emergency_contact_phone: '08xxxxxxxxxx',
+        } : {
           full_name: 'Nama lengkap sesuai identitas',
           email: 'nama@email.com',
           whatsapp_number: '08xxxxxxxxxx',
@@ -522,7 +569,8 @@ window.initCareerApply = () => {
         };
 
         if (field.type === 'select') {
-          const optionsHtml = [`<option value="">Pilih ${escapeHtml(field.label)}</option>`]
+          const selectPlaceholder = isEn ? `Select ${escapeHtml(fieldLabel)}` : `Pilih ${escapeHtml(field.label || fieldLabel)}`;
+          const optionsHtml = [`<option value="">${selectPlaceholder}</option>`]
             .concat((field.options || []).map((option) => `<option value="${escapeHtml(option.value)}">${escapeHtml(option.label)}</option>`))
             .join('');
           wrapper.innerHTML = `
@@ -581,13 +629,13 @@ window.initCareerApply = () => {
     attachFileValidationListeners();
 
     const submitWrapper = document.createElement('div');
-    submitWrapper.className = 'border-t border-black/10 pt-5';
+    submitWrapper.className = 'border-t border-black/10 dark:border-slate-800 pt-5';
     const submitBtn = document.createElement('button');
     submitBtn.type = 'button';
     submitBtn.id = 'btn-submit';
     submitBtn.setAttribute('data-motion-cta', 'true');
     submitBtn.className = 'apply-submit';
-    submitBtn.textContent = 'Kirim Lamaran';
+    submitBtn.textContent = isEn ? 'Submit Application' : 'Kirim Lamaran';
     submitBtn.addEventListener('click', (e) => {
       if (formNode.checkValidity()) {
         handleSubmit(e);
@@ -600,17 +648,18 @@ window.initCareerApply = () => {
   };
 
   const renderSuccess = (payload) => {
+    const isEn = getLang() === 'en';
     formNode.innerHTML = `
-      <div data-motion-reveal="panel" class="border border-green-100 bg-green-50 p-8 sm:p-10">
+      <div data-motion-reveal="panel" class="border border-green-100 bg-green-50 p-8 sm:p-10 dark:border-green-900/50 dark:bg-green-950/30">
         <div class="grid gap-6 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
           <div>
-            <p class="lc-eyebrow text-green-700">Lamaran Terkirim</p>
-            <h3 class="mt-3 font-display text-2xl font-semibold tracking-[-0.04em] text-green-800">Lamaran Berhasil Terkirim!</h3>
-            <p class="mt-3 max-w-[34rem] text-[15px] leading-7 text-green-700">Terima kasih, <strong>${escapeHtml(payload.data?.applicant_name || 'Kandidat')}</strong>. Lamaran Anda sudah diterima dan akan ditinjau oleh tim kami.</p>
+            <p class="lc-eyebrow text-green-700 dark:text-green-400">${isEn ? 'Application Submitted' : 'Lamaran Terkirim'}</p>
+            <h3 class="mt-3 font-display text-2xl font-semibold tracking-[-0.04em] text-green-800 dark:text-green-300">${isEn ? 'Application Sent Successfully!' : 'Lamaran Berhasil Terkirim!'}</h3>
+            <p class="mt-3 max-w-[34rem] text-[15px] leading-7 text-green-700 dark:text-green-300">${isEn ? 'Thank you' : 'Terima kasih'}, <strong>${escapeHtml(payload.data?.applicant_name || (isEn ? 'Candidate' : 'Kandidat'))}</strong>. ${isEn ? 'Your application has been received and will be reviewed by our team.' : 'Lamaran Anda sudah diterima dan akan ditinjau oleh tim kami.'}</p>
           </div>
           <div class="flex flex-wrap gap-3">
-            <a href="/career" data-motion-cta="true" class="button-primary sm:w-auto">Lihat posisi lainnya</a>
-            <a href="/contact" data-motion-cta="true" class="button-secondary sm:w-auto">Hubungi tim korporat</a>
+            <a href="/career" data-motion-cta="true" class="button-primary sm:w-auto">${isEn ? 'View other positions' : 'Lihat posisi lainnya'}</a>
+            <a href="/contact" data-motion-cta="true" class="button-secondary sm:w-auto">${isEn ? 'Contact us' : 'Hubungi tim korporat'}</a>
           </div>
         </div>
       </div>
@@ -621,12 +670,13 @@ window.initCareerApply = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     clearErrors();
+    const isEn = getLang() === 'en';
 
     if (!validateClientFiles()) {
       formAlerts.innerHTML = renderFormStatus(
         'warning',
-        'Periksa Form',
-        'Periksa kembali file yang diunggah. Format dan ukuran file harus sesuai ketentuan sebelum lamaran dikirim.'
+        isEn ? 'Check Uploaded Files' : 'Periksa Form',
+        isEn ? 'Please check the uploaded files. Format and size must match requirements before submitting.' : 'Periksa kembali file yang diunggah. Format dan ukuran file harus sesuai ketentuan sebelum lamaran dikirim.'
       );
       return;
     }
@@ -635,7 +685,7 @@ window.initCareerApply = () => {
     const formData = new FormData(formNode);
     const originalText = submitBtn.innerHTML;
     submitBtn.disabled = true;
-    submitBtn.innerHTML = 'Memproses...';
+    submitBtn.innerHTML = isEn ? 'Processing...' : 'Memproses...';
 
     try {
       const payload = await api.applyToJob(slug, formData);
@@ -645,14 +695,14 @@ window.initCareerApply = () => {
         showErrors(error.payload.errors);
         formAlerts.innerHTML = renderFormStatus(
           'warning',
-          'Periksa Form',
-          error.payload.message || 'Mohon periksa kembali isian formulir Anda.'
+          isEn ? 'Check Form' : 'Periksa Form',
+          error.payload.message || (isEn ? 'Please check your form input.' : 'Mohon periksa kembali isian formulir Anda.')
         );
       } else {
         formAlerts.innerHTML = renderFormStatus(
           'error',
-          'Terjadi Kendala',
-          'Terjadi kesalahan sistem. Lamaran gagal dikirim. Silakan coba lagi beberapa saat lagi.'
+          isEn ? 'Something went wrong' : 'Terjadi Kendala',
+          isEn ? 'A system error occurred. Please try again in a few moments.' : 'Terjadi kesalahan sistem. Lamaran gagal dikirim. Silakan coba lagi beberapa saat lagi.'
         );
       }
     } finally {
@@ -663,14 +713,25 @@ window.initCareerApply = () => {
     }
   };
 
+  let cachedJob = window.__oceanSpaceCachedJobDetail || null;
+
   const renderJob = (job) => {
-    document.title = `Lamaran: ${job.title} | Ocean Space`;
+    if (!job) return;
+    cachedJob = job;
+    window.__oceanSpaceCachedJobDetail = job;
+
+    const isEn = getLang() === 'en';
+    document.title = isEn ? `Application: ${job.title} | Ocean Space` : `Lamaran: ${job.title} | Ocean Space`;
     titleNode.textContent = formatJobTitle(job.title);
-    summaryNode.textContent = 'Baca deskripsi dan kualifikasi. Kalau cocok, isi lamaran di bawah.';
+    summaryNode.textContent = isEn
+      ? 'Review the role description, qualifications, and submit your application below.'
+      : 'Baca konteks peran, lalu isi lamaran jika cocok.';
+
     descriptionNode.innerHTML = renderTextareaBlocks(job.description, {
-      emptyHtml: '<p>Informasi deskripsi belum tersedia.</p>',
-      paragraphClass: 'text-[15px] leading-7 text-[#556070]'
+      emptyHtml: `<p>${isEn ? 'Description not yet available.' : 'Informasi deskripsi belum tersedia.'}</p>`,
+      paragraphClass: 'text-[15px] leading-7 text-[#556070] dark:text-slate-300'
     });
+
     renderRequirements(job.requirements);
     renderPrep(job);
     renderMeta(job);
@@ -679,12 +740,25 @@ window.initCareerApply = () => {
     setState('content');
   };
 
+  const handleLangChange = () => {
+    if (cachedJob) {
+      renderJob(cachedJob);
+    }
+  };
+
+  window.addEventListener('oceanspace:languagechange', handleLangChange);
+
   const runId = (window.__oceanSpaceApplyRunId || 0) + 1;
   window.__oceanSpaceApplyRunId = runId;
 
   const init = async () => {
     if (!slug) {
       setState('empty');
+      return;
+    }
+
+    if (cachedJob && (cachedJob.slug === slug || !cachedJob.slug)) {
+      renderJob(cachedJob);
       return;
     }
 
@@ -707,6 +781,8 @@ window.initCareerApply = () => {
     }
   };
 
-  setState('loading');
+  if (!cachedJob) {
+    setState('loading');
+  }
   init();
 };

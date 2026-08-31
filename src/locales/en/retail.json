@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "eyebrow": "Business Unit: Retail",
+    "headingPart1": "Becoming the most trusted retail brand for mobile phones and accessories by ",
+    "headingHighlight": "customers",
+    "headingPart2": ".",
+    "desc": "Honesty, superior service, and sustainable growth across our nationwide network of mobile phone and smart technology retail stores.",
+    "entitiesLabel": "Official operating entities",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities",
+    "stats": {
+      "guarantee": "100%",
+      "guaranteeLabel": "Authentic & Warrantied",
+      "direct": "Direct",
+      "directLabel": "Direct Retail Experience",
+      "lines": "2 Lines",
+      "linesLabel": "Integrated Operations"
+    }
+  },
+  "governance": {
+    "eyebrow": "Store Network & Service",
+    "heading": "Consistent service standards in every single store.",
+    "desc": "Delivering a comfortable, reliable, and transparent shopping experience for smartphones and accessories.",
+    "bar": {
+      "principle": "Shopping Principle",
+      "principleVal": "JUJUR",
+      "principleSub": "Transparent pricing",
+      "product": "Product Assurance",
+      "productVal": "100% Authentic",
+      "productSub": "Official brand warranty",
+      "afterSales": "After-Sales",
+      "afterSalesVal": "Completed",
+      "afterSalesSub": "Warranty claim support",
+      "quality": "Service Quality",
+      "qualityVal": "Excellence",
+      "qualitySub": "Professional team"
+    }
+  },
+  "missions": {
+    "eyebrow": "Operational Principles",
+    "heading": "Five core missions of the Retail unit.",
+    "subtitle": "Commitment to honesty, authentic warranty, and exceptional customer service in every outlet.",
+    "missionPrefix": "Mission",
+    "items": [
+      {
+        "id": "01",
+        "title": "Authentic Phones & Accessories",
+        "desc": "Providing genuine smartphones and accessories with clear warranties and transparent specifications and pricing.",
+        "badge": "Official Warranty Guarantee"
+      },
+      {
+        "id": "02",
+        "title": "Fast & Professional Service",
+        "desc": "Delivering responsive, accurate, and professional service through consistent operating standards and trained, responsible staff.",
+        "badge": "Standardized Service"
+      },
+      {
+        "id": "03",
+        "title": "Long-Term Relationships",
+        "desc": "Fostering enduring relationships with customers and building a respectful, fair, and safe work environment for all employees.",
+        "badge": "Loyal Customer Satisfaction"
+      },
+      {
+        "id": "04",
+        "title": "Store Network Expansion",
+        "desc": "Expanding store networks, service quality, and team capabilities systematically, disciplined, and sustainably.",
+        "badge": "Measured Growth"
+      },
+      {
+        "id": "05",
+        "title": "Complete Transaction & After-Sales",
+        "desc": "Fulfilling every sale, after-sales service, and customer commitment with total dedication and accountability.",
+        "badge": "After-Sales Accountability"
+      }
+    ]
+  },
+  "pillars": {
+    "eyebrow": "Business Capabilities",
+    "heading": "Four core pillars of retail operations.",
+    "subtitle": "High service standards, genuine product assurance, and after-sales support prioritizing customer satisfaction.",
+    "items": [
+      {
+        "id": "01",
+        "tag": "Pillar 01 · Authenticity",
+        "title": "100% Genuine Products",
+        "desc": "Guaranteed original smartphones and accessories backed by official manufacturer warranties.",
+        "detail": "Official Brand Warranty"
+      },
+      {
+        "id": "02",
+        "tag": "Pillar 02 · Service",
+        "title": "High Service Standards",
+        "desc": "Friendly and knowledgeable sales and customer service teams ready to guide customers to the right product.",
+        "detail": "Fast & Courteous Service"
+      },
+      {
+        "id": "03",
+        "tag": "Pillar 03 · Transparency",
+        "title": "Honest & Transparent Pricing",
+        "desc": "Complete technical specifications and clear pricing with zero hidden fees or concealed terms.",
+        "detail": "No Hidden Conditions"
+      },
+      {
+        "id": "04",
+        "tag": "Pillar 04 · Support",
+        "title": "Comprehensive Warranty Assistance",
+        "desc": "Hassle-free warranty claim procedures and prompt after-sales support across all stores.",
+        "detail": "Dedicated After-Sales Commitment"
+      }
+    ]
+  },
+  "closingCta": {
+    "eyebrow": "Next steps",
+    "heading": "Get in touch with Ocean Space.",
+    "desc": "Visit our contact page or check out current job openings.",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities"
+  }
+}

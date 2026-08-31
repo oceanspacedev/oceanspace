@@ -175,8 +175,8 @@
 
     document.querySelectorAll('[data-mobile-link]').forEach(function (link) {
       var isActive = getLinkPage(link) === currentPage;
-      link.classList.toggle('bg-[#006AFF]', isActive);
-      link.classList.toggle('text-white', isActive);
+      link.classList.toggle('bg-[#eef4ff]', isActive);
+      link.classList.toggle('text-[#1d4ed8]', isActive);
       link.classList.toggle('text-[#556070]', !isActive);
       if (isActive) {
         link.setAttribute('aria-current', 'page');

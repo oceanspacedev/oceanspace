@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "titlePart1": "Empat unit bisnis. Satu standar ",
+    "titleHighlight": "eksekusi",
+    "titlePart2": ".",
+    "subtitle": "Menyatukan kemitraan, ekspansi, dan operasi harian.",
+    "cta": "Hubungi kami",
+    "badge": "4 unit · 16 titik aktif",
+    "mapAlt": "Peta Jaringan Distribusi Indonesia Ocean Space - Hub, Depo, dan Corridors"
+  },
+  "marquee": {
+    "heading": "Powering ideas for disciplined growth"
+  },
+  "framework": {
+    "eyebrow": "Cara Kami Bekerja",
+    "heading": "Satu standar untuk empat unit.",
+    "unit1": {
+      "tag": "Distribusi",
+      "name": "HP Distribusi",
+      "desc": "Distribusi handphone dan gadget berskala nasional.",
+      "companies": "PT Media Selular Indonesia, PT Satu Media Indonesia & CV Top Selular",
+      "link": "Lihat Distribusi"
+    },
+    "unit2": {
+      "tag": "Retail Direct",
+      "name": "Retail",
+      "desc": "Gerai handphone dan aksesori dengan layanan konsisten.",
+      "companies": "PT RISM & PT CSN",
+      "link": "Lihat Retail"
+    },
+    "unit3": {
+      "tag": "Sub Retail",
+      "name": "Sub Retail",
+      "desc": "Produk teknologi rumah tangga melalui jaringan ritel.",
+      "companies": "Complite+, Unboxing & Complete Selular",
+      "link": "Lihat Sub Retail"
+    },
+    "unit4": {
+      "tag": "Lifestyle",
+      "name": "Lifestyle",
+      "desc": "Layanan lifestyle untuk kebutuhan sehari-hari.",
+      "companies": "PT Mari Sukses Gemilang",
+      "link": "Lihat Lifestyle"
+    },
+    "summary": {
+      "coreValue": "Nilai Utama",
+      "coreValueSub": "5 prinsip kerja grup",
+      "operations": "Operasi",
+      "operationsTitle": "4 Unit Bisnis",
+      "operationsSub": "Satu standar kerja",
+      "network": "Jaringan",
+      "networkTitle": "16 Titik Operasional",
+      "networkSub": "Jawa, Sulawesi, Sumatera"
+    }
+  },
+  "operations": {
+    "eyebrow": "Operasi Skala Nasional",
+    "heading": "16 Titik tersebar di pulau Jawa, Sulawesi, dan Sumatera.",
+    "totalNetwork": "Total Jaringan",
+    "totalNetworkCount": "16 Titik",
+    "totalNetworkSub": "Aktif beroperasi",
+    "coverage": "Cakupan Wilayah",
+    "coverageCount": "3 Pulau Utama",
+    "coverageSub": "Jawa, Sulawesi, Sumatera",
+    "mapLabel": "Peta Jaringan Nasional",
+    "mapTitle": "Titik Operasional Indonesia",
+    "mapBadge": "16 / 16 titik aktif",
+    "mapAlt": "Peta Indonesia dengan 16 titik operasional Ocean Space di Jawa, Jabodetabek, Sumatera, dan Sulawesi",
+    "regions": {
+      "jawa": "Jawa",
+      "jawaCount": "7 Titik",
+      "jabodetabek": "Jabodetabek",
+      "jabodetabekCount": "3 Titik",
+      "sumatera": "Sumatera",
+      "sumateraCount": "5 Titik",
+      "sulawesi": "Sulawesi",
+      "sulawesiCount": "1 Titik"
+    }
+  },
+  "culture": {
+    "eyebrow": "Budaya kerja",
+    "heading": "Budaya yang menggerakkan kerja.",
+    "desc": "Lima prinsip dan empat motivasi yang memberi arah dalam keputusan sehari-hari.",
+    "ctaCareer": "Buka halaman karier",
+    "ctaCulture": "Pelajari budaya JUJUR",
+    "principlesLabel": "Lima Prinsip JUJUR",
+    "principlesSub": "Core Values",
+    "principlesPrefix": "Prinsip",
+    "motivationsLabel": "Empat Motivasi Kerja",
+    "motivationsSub": "Driver Model",
+    "motivationsPrefix": "Motivasi",
+    "principlesList": [
+      { "id": "01", "title": "Jujur & Integritas" },
+      { "id": "02", "title": "Unggul Berkinerja" },
+      { "id": "03", "title": "Jaga Pelanggan" },
+      { "id": "04", "title": "Ulet & Bertumbuh" },
+      { "id": "05", "title": "Rampung" }
+    ],
+    "motivationsList": [
+      { "id": "01", "title": "Fear" },
+      { "id": "02", "title": "Desire" },
+      { "id": "03", "title": "Duty" },
+      { "id": "04", "title": "Love" }
+    ]
+  },
+  "audiences": {
+    "card1": {
+      "label": "Partner",
+      "title": "Struktur kolaborasi yang cepat terbaca",
+      "desc": "Anda melihat peran unit dan jalur kerja sama tanpa membuka banyak halaman."
+    },
+    "card2": {
+      "label": "Calon Karyawan",
+      "title": "Budaya kerja yang konkret",
+      "desc": "Tim menerjemahkan JUJUR dan empat motivasi menjadi perilaku kerja nyata."
+    },
+    "card3": {
+      "label": "Publik Umum",
+      "title": "Organisasi yang tertib",
+      "desc": "Struktur informasi dan bahasa visual menunjukkan perusahaan yang rapi."
+    }
+  },
+  "contactCta": {
+    "eyebrow": "Hubungi Ocean Space",
+    "heading": "Bicarakan kemitraan, ekspansi, atau rekrutmen dengan tim kami.",
+    "desc": "Kirim kebutuhan korporat atau peluang kerja sama lewat jalur kontak yang sama.",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier"
+  }
+}

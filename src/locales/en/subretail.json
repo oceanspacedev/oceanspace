@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "eyebrow": "Business Unit: Sub Retail",
+    "headingPart1": "Becoming the most trusted retail ecosystem and ",
+    "headingHighlight": "smart tech services",
+    "headingPart2": " for households.",
+    "desc": "Honesty combined with superior performance, driving sustainable growth across retail supply and after-sales support.",
+    "entitiesLabel": "Official operating entities",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities",
+    "heroAlt": "Ocean Space Sub-Retail Services"
+  },
+  "visionMission": {
+    "eyebrow": "Vision & Mission",
+    "heading": "Strategic direction of Sub Retail.",
+    "desc": "Vision and mission guiding this business unit in delivering high-quality consumer services.",
+    "highlights": [
+      {
+        "id": "HIGHLIGHT 01",
+        "title": "Authentic, Transparent, & Accountable",
+        "desc": "Delivering genuine products and services with transparent product information and fair consumer processes."
+      },
+      {
+        "id": "HIGHLIGHT 02",
+        "title": "Operational Excellence",
+        "desc": "Superior service delivery through disciplined systems, organized work procedures, and professional teams."
+      },
+      {
+        "id": "HIGHLIGHT 03",
+        "title": "Long-Term Relationships",
+        "desc": "Building equitable and secure relationships with customers and a mutually respectful work environment for staff."
+      },
+      {
+        "id": "HIGHLIGHT 04",
+        "title": "Sustainable Growth",
+        "desc": "Expanding retail networks and team capabilities incrementally in response to genuine customer needs and market evolution."
+      }
+    ]
+  },
+  "missions": {
+    "eyebrow": "Five Missions",
+    "heading": "Five core operational missions.",
+    "desc": "Our foundational commitments in Sub Retail to maintain transaction quality and consumer confidence.",
+    "items": [
+      {
+        "id": "01",
+        "desc": "Providing authentic, transparent, and accountable products and services with crystal-clear information and fair customer processes."
+      },
+      {
+        "id": "02",
+        "desc": "Delivering top-tier service and operational execution through organized work standards, disciplined workflows, and a skilled workforce."
+      },
+      {
+        "id": "03",
+        "desc": "Establishing long-term customer partnerships while maintaining a fair, safe, and collaborative work environment for our teams."
+      },
+      {
+        "id": "04",
+        "desc": "Systematically scaling our network, offerings, and capabilities to match evolving market dynamics and customer needs."
+      },
+      {
+        "id": "05",
+        "desc": "Fulfilling every retail transaction, repair service, warranty commitment, and after-sales support with thorough accountability."
+      }
+    ]
+  },
+  "coreVision": {
+    "eyebrow": "Core Vision",
+    "heading": "Becoming the most trusted retail & smart tech service ecosystem.",
+    "desc": "Built upon pillars of integrity, performance excellence, and long-term sustainable growth.",
+    "pillars": [
+      {
+        "tag": "PILLAR 01",
+        "title": "Most Trusted",
+        "desc": "Establishing a credible, transparent retail and household technology services ecosystem."
+      },
+      {
+        "tag": "PILLAR 02",
+        "title": "Integrity & Performance",
+        "desc": "Ensuring customer satisfaction through unwavering honesty backed by disciplined execution standards."
+      },
+      {
+        "tag": "PILLAR 03",
+        "title": "Repairs & After-Sales",
+        "desc": "Honoring every warranty claim, maintenance support, and client commitment thoroughly and reliably."
+      }
+    ]
+  },
+  "closingCta": {
+    "eyebrow": "Next steps",
+    "heading": "Get in touch with Ocean Space.",
+    "desc": "Visit our contact page or check out current job openings.",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities"
+  }
+}

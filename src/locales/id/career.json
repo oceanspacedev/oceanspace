@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "eyebrow": "Karier Ocean Space",
+    "heading": "Bergabung dan bertumbuh dengan integritas.",
+    "desc": "Temukan posisi lowongan kerja aktif di seluruh jaringan unit bisnis Ocean Space.",
+    "ctaOpenPositions": "Lihat posisi terbuka",
+    "ctaCulture": "Pelajari budaya kerja"
+  },
+  "openJobs": {
+    "eyebrow": "Lowongan Terbuka",
+    "heading": "Cari peran yang sedang dibuka saat ini.",
+    "desc": "Posisi terbaru di Ocean Space.",
+    "searchPlaceholder": "Cari lowongan",
+    "locationPlaceholder": "Filter lokasi",
+    "applyFilter": "Terapkan",
+    "reset": "Atur ulang",
+    "empty": {
+      "eyebrow": "Belum Ada Posisi Aktif",
+      "heading": "Posisi baru belum tersedia saat ini.",
+      "desc": "Cek lagi nanti, atau hubungi tim jika Anda ingin menyampaikan minat.",
+      "cta": "Hubungi tim korporat"
+    },
+    "error": {
+      "eyebrow": "Terjadi Kendala",
+      "heading": "Daftar lowongan online sedang tidak tersedia.",
+      "desc": "Coba lagi, atau hubungi tim untuk menyampaikan minat.",
+      "retry": "Coba lagi",
+      "cta": "Sampaikan minat"
+    }
+  },
+  "apply": {
+    "empty": {
+      "eyebrow": "Pilih Posisi Dulu",
+      "heading": "Halaman ini membutuhkan posisi yang dipilih.",
+      "desc": "Kembali ke karier, lalu buka lamaran dari posisi yang ingin Anda lihat.",
+      "cta": "Lihat posisi terbuka"
+    },
+    "error": {
+      "eyebrow": "Terjadi Kendala",
+      "heading": "Detail posisi gagal dimuat.",
+      "desc": "Posisi tidak tersedia atau tidak dapat diakses. Kembali ke karier untuk memilih posisi lain.",
+      "backToCareers": "Kembali ke Karier",
+      "contact": "Hubungi kami"
+    },
+    "hero": {
+      "eyebrow": "Karier / Lamaran",
+      "loadingTitle": "Memuat posisi yang dipilih.",
+      "summary": "Baca konteks peran, lalu isi lamaran jika cocok.",
+      "ctaFillForm": "Isi lamaran",
+      "ctaReadDetails": "Baca detail posisi",
+      "checklistTitle": "Siapkan dulu",
+      "checklistTag": "Checklist"
+    },
+    "details": {
+      "eyebrow": "Detail posisi",
+      "heading": "Deskripsi, kualifikasi, dan form lamaran.",
+      "desc": "Baca konteks peran, lalu isi data yang diminta di bawah.",
+      "roleSummary": "Ringkasan peran",
+      "jobDescription": "Deskripsi pekerjaan",
+      "waitingData": "Menunggu data.",
+      "qualifications": "Kualifikasi"
+    },
+    "form": {
+      "eyebrow": "Form lamaran",
+      "heading": "Kirim lamaran",
+      "desc": "Isi data yang diminta. Bidang bertanda * wajib diisi."
+    },
+    "nextStep": {
+      "eyebrow": "Langkah berikutnya",
+      "heading": "Siap melamar, atau masih melihat posisi lain?",
+      "desc": "Kembali ke daftar lowongan, atau hubungi tim jika Anda butuh klarifikasi.",
+      "ctaOpenPositions": "Lihat posisi terbuka",
+      "ctaCorporate": "Hubungi tim korporat"
+    }
+  }
+}

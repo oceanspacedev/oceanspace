@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "eyebrow": "Business Unit: Phone Distribution",
+    "headingPart1": "Becoming a trusted distribution company with one operational ",
+    "headingHighlight": "execution",
+    "headingPart2": " standard.",
+    "desc": "Official nationwide distributor of mobile phones and smart tech devices. Growing brands through honesty, accurate data, and reliable fulfillment across Indonesia.",
+    "entitiesLabel": "Official operating entities",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities",
+    "stats": {
+      "dealers": "5000+",
+      "dealersLabel": "Active Dealer Partners",
+      "sla": "99.4%",
+      "slaLabel": "Distribution SLA Fulfillment",
+      "entities": "3 Lines",
+      "entitiesLabel": "Registered Entities"
+    }
+  },
+  "directory": {
+    "eyebrow": "Distribution Network",
+    "heading": "17 Regional Offices & Depots",
+    "desc": "Supplying retail stores and partners through a robust network of headquarters, logistics warehouses, and regional depots across Greater Jakarta, Java, Sumatra, and Sulawesi.",
+    "mapAlt": "Ocean Space Distribution Network Map",
+    "tabs": {
+      "all": "All",
+      "jabodetabek": "Greater Jakarta",
+      "jawa": "Java",
+      "sumatera": "Sumatra",
+      "sulawesi": "Sulawesi & East"
+    },
+    "regionsSummary": {
+      "jabodetabek": "4 Locations",
+      "jabodetabekLabel": "Greater Jakarta",
+      "jawa": "5 Depots",
+      "jawaLabel": "Java",
+      "sumatera": "5 Hubs",
+      "sumateraLabel": "Sumatra",
+      "sulawesi": "3 Hubs",
+      "sulawesiLabel": "Sulawesi"
+    },
+    "pic": "PIC: {{name}}"
+  },
+  "missions": {
+    "eyebrow": "Operational Principles",
+    "heading": "Five core missions of Phone Distribution.",
+    "missionPrefix": "Mission",
+    "items": [
+      {
+        "id": "01",
+        "title": "Transparency & Integrity",
+        "desc": "Conducting distribution transparently, fairly, and responsibly toward customers, principals, and partners across every business transaction.",
+        "badge": "Open Business Data"
+      },
+      {
+        "id": "02",
+        "title": "Superior Supply Execution",
+        "desc": "Achieving outstanding sales and distribution performance through rigorous execution, accurate inventory data, and consistent operational standards.",
+        "badge": "Operational SLA Discipline"
+      },
+      {
+        "id": "03",
+        "title": "Long-Term Partnerships",
+        "desc": "Building enduring relationships with clients while cultivating a respectful, safe, and empowering work environment for our teams.",
+        "badge": "Sustainable Collaboration"
+      },
+      {
+        "id": "04",
+        "title": "Continuous & Scalable Growth",
+        "desc": "Expanding organizational capacity, geographic reach, and team capabilities systematically alongside brand growth.",
+        "badge": "Measured Capacity Expansion"
+      },
+      {
+        "id": "05",
+        "title": "Commitment & Complete Accountability",
+        "desc": "Fulfilling every delivery promise, commercial agreement, and after-sales service with complete accountability and punctuality.",
+        "badge": "After-Sales Accountability"
+      }
+    ]
+  },
+  "pillars": {
+    "eyebrow": "Business Capabilities",
+    "heading": "Four core pillars of distribution operations.",
+    "items": [
+      {
+        "id": "01",
+        "tag": "Pillar 01 · Logistics",
+        "title": "Logistics & Warehousing",
+        "desc": "Centralized stock management at regional depots paired with secure delivery fleets ensuring cargo safety and timeliness.",
+        "detail": "Punctual Delivery SLA"
+      },
+      {
+        "id": "02",
+        "tag": "Pillar 02 · Brand Partners",
+        "title": "Official Principals",
+        "desc": "Smartphone brand partnerships managing product allocations, official warranties, and regional promotional campaigns.",
+        "detail": "100% Official Warranty"
+      },
+      {
+        "id": "03",
+        "tag": "Pillar 03 · Supply",
+        "title": "Data-Driven Systems",
+        "desc": "Real-time monitoring of market demand patterns and regional inventory levels to minimize stockouts.",
+        "detail": "Real-time Monitoring"
+      },
+      {
+        "id": "04",
+        "tag": "Pillar 04 · Ecosystem",
+        "title": "Dealer Support",
+        "desc": "Fast ordering channels, transparent commercial terms, and on-the-ground support to help retail partners thrive.",
+        "detail": "5,000+ Retail Partner Network"
+      }
+    ]
+  },
+  "closingCta": {
+    "eyebrow": "Next steps",
+    "heading": "Get in touch with Ocean Space.",
+    "desc": "Visit our contact page or check out current job openings.",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities"
+  }
+}

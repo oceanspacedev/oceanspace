@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "distribution": "HP Distribusi",
+    "retail": "Retail",
+    "subRetail": "Sub Retail",
+    "lifestyle": "Lifestyle",
+    "career": "Karier",
+    "contact": "Kontak",
+    "privacy": "Kebijakan Privasi",
+    "subprocessors": "Sub-processor / DPA",
+    "sitemap": "Jelajahi Sitemap",
+    "menu": "Menu",
+    "ariaLabel": "Navigasi utama",
+    "mobileAriaLabel": "Navigasi utama mobile",
+    "logoAriaLabel": "Beranda Ocean Space"
+  },
+  "actions": {
+    "career": "Karier",
+    "contact": "Kontak",
+    "contactCorporate": "Hubungi tim korporat",
+    "exploreCareers": "Lihat peluang karier",
+    "viewLocationDetails": "Lihat Detail Lokasi",
+    "backToHome": "Kembali ke Beranda",
+    "submit": "Kirim",
+    "submitting": "Mengirim...",
+    "applyNow": "Lamar Sekarang",
+    "readMore": "Baca Selengkapnya",
+    "close": "Tutup",
+    "filterAll": "Semua"
+  },
+  "footer": {
+    "eyebrow": "Terhubung dengan Ocean Space",
+    "tagline": "Distribusi, retail, sub retail, dan lifestyle. Empat unit, satu standar operasi.",
+    "company": "Perusahaan",
+    "businessUnits": "Unit Bisnis",
+    "operations": "Operasional",
+    "operationalPoints": "16 Titik Operasional",
+    "activeDepos": "16 Depo Aktif",
+    "regionClusters": "4 Klaster Wilayah",
+    "copyright": "Ocean Space | Tumbuh dengan Integritas, Melaju dengan Eksekusi.",
+    "developerCredit": "Dibuat oleh Web App Developer"
+  },
+  "theme": {
+    "switchToDark": "Ganti ke Mode Gelap",
+    "switchToLight": "Ganti ke Mode Terang",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap"
+  },
+  "language": {
+    "switchLanguage": "Ganti bahasa",
+    "id": "ID",
+    "en": "EN",
+    "indonesian": "Bahasa Indonesia",
+    "english": "English"
+  }
+}

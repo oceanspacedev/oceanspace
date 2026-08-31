@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "eyebrow": "Business Unit: Lifestyle",
+    "headingPart1": "Developing lifestyle ventures and ",
+    "headingHighlight": "integrated services",
+    "headingPart2": ".",
+    "desc": "Becoming a trusted nationwide lifestyle business group, delivering quality consumer experiences, and expanding sustainably through honesty and execution excellence.",
+    "entitiesLabel": "Official operating entities",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities",
+    "heroAlt": "Ocean Space Lifestyle Services"
+  },
+  "visionMission": {
+    "eyebrow": "Vision & Mission",
+    "heading": "Strategic direction of the Lifestyle unit.",
+    "desc": "Four core guiding principles steering our business development and customer service.",
+    "highlights": [
+      {
+        "id": "HIGHLIGHT 01",
+        "title": "Safe & Accountable",
+        "desc": "Providing safe, transparent, and responsible lifestyle products, services, and experiences to customers, partners, and communities."
+      },
+      {
+        "id": "HIGHLIGHT 02",
+        "title": "Operational Excellence",
+        "desc": "Maintaining consistent, professional, and high-performance operational standards across every business endeavor."
+      },
+      {
+        "id": "HIGHLIGHT 03",
+        "title": "Long-Term Relationships",
+        "desc": "Prioritizing guest comfort alongside a safe, equitable, and growth-oriented work environment for all employees."
+      },
+      {
+        "id": "HIGHLIGHT 04",
+        "title": "Disciplined Expansion",
+        "desc": "Expanding business units and community hubs progressively in accordance with genuine market needs and corporate values."
+      }
+    ]
+  },
+  "missions": {
+    "eyebrow": "Five Missions",
+    "heading": "Five core operational missions.",
+    "desc": "Fundamental commitments applied consistently across all lifestyle activities and hospitality initiatives.",
+    "items": [
+      {
+        "id": "01",
+        "desc": "Providing safe, transparent, and accountable lifestyle products, services, and experiences to customers, partners, and communities."
+      },
+      {
+        "id": "02",
+        "desc": "Upholding superior, consistent, and professional operational standards across every single business establishment."
+      },
+      {
+        "id": "03",
+        "desc": "Fostering long-term customer relationships and cultivating an equitable, secure, and nurturing workplace for our team."
+      },
+      {
+        "id": "04",
+        "desc": "Developing business units and community footprints systematically, disciplined, and sustainably in tune with market opportunities."
+      },
+      {
+        "id": "05",
+        "desc": "Honoring every service pledge, operational milestone, and social responsibility initiative with complete accountability."
+      }
+    ]
+  },
+  "coreVision": {
+    "eyebrow": "Core Vision",
+    "heading": "Becoming a trusted and beloved lifestyle group.",
+    "desc": "Delivering honest service and superior execution to secure healthy, long-term growth.",
+    "pillars": [
+      {
+        "tag": "PILLAR 01",
+        "title": "Trusted Business Group",
+        "desc": "Upholding strict integrity across all customer and partner touchpoints to remain a reliable community partner."
+      },
+      {
+        "tag": "PILLAR 02",
+        "title": "High-Quality Experiences",
+        "desc": "Growing responsibly by delivering curated, premium services tailored for modern lifestyles."
+      },
+      {
+        "tag": "PILLAR 03",
+        "title": "Complete Accountability",
+        "desc": "Meeting commercial commitments, day-to-day operations, and social responsibilities with total transparency."
+      }
+    ]
+  },
+  "closingCta": {
+    "eyebrow": "Next steps",
+    "heading": "Get in touch with Ocean Space.",
+    "desc": "Visit our contact page or check out current job openings.",
+    "ctaCorporate": "Contact Corporate Team",
+    "ctaCareers": "View Career Opportunities"
+  }
+}

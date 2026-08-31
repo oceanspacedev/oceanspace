@@ -16,15 +16,19 @@ async function minifyDir(dir) {
   for (const name of entries) {
     const full = join(dir, name)
     if (!statSync(full).isFile() || !name.endsWith('.js')) continue
-    await build({
-      entryPoints: [full],
-      outfile: full,
-      allowOverwrite: true,
-      minify: true,
-      legalComments: 'none',
-      logLevel: 'silent',
-    })
-    console.log(`minified ${join('dist/js', name)}`)
+    try {
+      await build({
+        entryPoints: [full],
+        outfile: full,
+        allowOverwrite: true,
+        minify: true,
+        legalComments: 'none',
+        logLevel: 'silent',
+      })
+      console.log(`minified ${join('dist/js', name)}`)
+    } catch (e) {
+      console.warn(`warning: could not minify ${name}, keeping original file:`, e.message)
+    }
   }
 }
 

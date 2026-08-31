@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "eyebrow": "Ocean Space Careers",
+    "heading": "Join us and grow with integrity.",
+    "desc": "Find active career openings across the entire Ocean Space business unit network.",
+    "ctaOpenPositions": "View open positions",
+    "ctaCulture": "Explore work culture"
+  },
+  "openJobs": {
+    "eyebrow": "Open Positions",
+    "heading": "Explore currently open roles.",
+    "desc": "Latest job opportunities at Ocean Space.",
+    "searchPlaceholder": "Search jobs",
+    "locationPlaceholder": "Filter location",
+    "applyFilter": "Apply",
+    "reset": "Reset",
+    "empty": {
+      "eyebrow": "No Openings Available",
+      "heading": "No new positions currently open.",
+      "desc": "Check back later or contact our team to submit a general application.",
+      "cta": "Contact Corporate Team"
+    },
+    "error": {
+      "eyebrow": "Something Went Wrong",
+      "heading": "Online job listings are currently unavailable.",
+      "desc": "Please try again or get in touch with our team directly.",
+      "retry": "Try again",
+      "cta": "Submit interest"
+    }
+  },
+  "apply": {
+    "empty": {
+      "eyebrow": "Select a Position First",
+      "heading": "This page requires a selected job position.",
+      "desc": "Return to careers, then apply directly from your desired opening.",
+      "cta": "View open positions"
+    },
+    "error": {
+      "eyebrow": "Something Went Wrong",
+      "heading": "Failed to load job details.",
+      "desc": "This position is unavailable or inaccessible. Return to careers to select another role.",
+      "backToCareers": "Back to Careers",
+      "contact": "Contact Us"
+    },
+    "hero": {
+      "eyebrow": "Careers / Application",
+      "loadingTitle": "Loading selected position...",
+      "summary": "Review the role context, then submit your application if it aligns with your profile.",
+      "ctaFillForm": "Fill application",
+      "ctaReadDetails": "Read job details",
+      "checklistTitle": "Prepare first",
+      "checklistTag": "Checklist"
+    },
+    "details": {
+      "eyebrow": "Position Details",
+      "heading": "Description, qualifications, and application form.",
+      "desc": "Review the requirements, then fill out the required information below.",
+      "roleSummary": "Role summary",
+      "jobDescription": "Job description",
+      "waitingData": "Awaiting data.",
+      "qualifications": "Qualifications"
+    },
+    "form": {
+      "eyebrow": "Application Form",
+      "heading": "Submit Application",
+      "desc": "Fill in the requested fields. Fields marked with * are required."
+    },
+    "nextStep": {
+      "eyebrow": "Next steps",
+      "heading": "Ready to apply, or still exploring other roles?",
+      "desc": "Return to the jobs listing or reach out if you need further clarification.",
+      "ctaOpenPositions": "View open positions",
+      "ctaCorporate": "Contact Corporate Team"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "eyebrow": "Unit Bisnis: Retail",
+    "headingPart1": "Menjadi retail handphone dan aksesoris yang paling dipercaya ",
+    "headingHighlight": "pelanggan",
+    "headingPart2": ".",
+    "desc": "Kejujuran dan pelayanan unggul, dengan pertumbuhan yang berkelanjutan di seluruh jaringan gerai retail handphone dan teknologi.",
+    "entitiesLabel": "Entitas operasional resmi",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier",
+    "stats": {
+      "guarantee": "100%",
+      "guaranteeLabel": "Garansi & Produk Asli",
+      "direct": "Direct",
+      "directLabel": "Pelayanan Retail Langsung",
+      "lines": "2 Lini",
+      "linesLabel": "Operasi Resmi Terpadu"
+    }
+  },
+  "governance": {
+    "eyebrow": "Jaringan & Layanan Gerai",
+    "heading": "Standar pelayanan konsisten di setiap titik toko.",
+    "desc": "Menghadirkan pengalaman belanja handphone dan aksesori yang nyaman, terpercaya, dan transparan bagi pelanggan.",
+    "bar": {
+      "principle": "Prinsip Belanja",
+      "principleVal": "JUJUR",
+      "principleSub": "Harga transparan",
+      "product": "Jaminan Produk",
+      "productVal": "100% Asli",
+      "productSub": "Garansi resmi brand",
+      "afterSales": "Purna Jual",
+      "afterSalesVal": "Tuntas",
+      "afterSalesSub": "Dukungan klaim garansi",
+      "quality": "Kualitas Layanan",
+      "qualityVal": "Unggul",
+      "qualitySub": "Tim profesional"
+    }
+  },
+  "missions": {
+    "eyebrow": "Prinsip Operasional",
+    "heading": "Lima misi utama unit Retail.",
+    "subtitle": "Komitmen kejujuran, garansi resmi, dan pelayanan pelanggan unggul di setiap gerai.",
+    "missionPrefix": "Misi",
+    "items": [
+      {
+        "id": "01",
+        "title": "Produk Handphone & Aksesoris Asli",
+        "desc": "Menyediakan produk handphone dan aksesoris yang asli, bergaransi jelas, dengan informasi harga dan spesifikasi yang transparan kepada pelanggan.",
+        "badge": "Jaminan Garansi Resmi"
+      },
+      {
+        "id": "02",
+        "title": "Pelayanan Cepat & Profesional",
+        "desc": "Memberikan pelayanan cepat, tepat, dan profesional melalui standar operasional yang konsisten serta tim yang terlatih dan bertanggung jawab.",
+        "badge": "Standardized Service"
+      },
+      {
+        "id": "03",
+        "title": "Hubungan Jangka Panjang",
+        "desc": "Membangun hubungan jangka panjang dengan pelanggan serta menciptakan lingkungan kerja yang saling menghargai, adil, dan aman bagi seluruh tim.",
+        "badge": "Kepuasan Pelanggan Setia"
+      },
+      {
+        "id": "04",
+        "title": "Pengembangan Jaringan Toko",
+        "desc": "Mengembangkan jaringan toko, kualitas layanan, dan kompetensi tim secara bertahap, disiplin, dan berkelanjutan.",
+        "badge": "Pertumbuhan Terukur"
+      },
+      {
+        "id": "05",
+        "title": "Transaksi & Purna Jual Tuntas",
+        "desc": "Menyelesaikan setiap transaksi, layanan purna jual, dan komitmen kepada pelanggan dengan tuntas dan bertanggung jawab.",
+        "badge": "Tanggung Jawab Purna Jual"
+      }
+    ]
+  },
+  "pillars": {
+    "eyebrow": "Kapabilitas Bisnis",
+    "heading": "Empat pilar utama operasional retail.",
+    "subtitle": "Standar pelayanan, jaminan produk asli, dan purna jual yang mengutamakan kepuasan pelanggan.",
+    "items": [
+      {
+        "id": "01",
+        "tag": "Pilar 01 · Keaslian",
+        "title": "Produk 100% Asli",
+        "desc": "Jaminan perangkat handphone dan aksesoris original bergaransi resmi dari produsen terpercaya.",
+        "detail": "Garansi Resmi Brand"
+      },
+      {
+        "id": "02",
+        "tag": "Pilar 02 · Layanan",
+        "title": "Standar Servis Tinggi",
+        "desc": "Tim sales & customer service profesional yang ramah dan siap memberikan rekomendasi produk tepat.",
+        "detail": "Pelayanan Cepat & Ramah"
+      },
+      {
+        "id": "03",
+        "tag": "Pilar 03 · Transparansi",
+        "title": "Informasi Harga Jujur",
+        "desc": "Informasi spesifikasi lengkap dan penawaran harga transparan tanpa biaya atau syarat tersembunyi.",
+        "detail": "Tanpa Syarat Tersembunyi"
+      },
+      {
+        "id": "04",
+        "tag": "Pilar 04 · Purna Jual",
+        "title": "Dukungan Garansi Tuntas",
+        "desc": "Kemudahan proses klaim garansi dan asistensi purna jual yang sigap di seluruh jaringan toko.",
+        "detail": "Komitmen Purna Jual Tuntas"
+      }
+    ]
+  },
+  "closingCta": {
+    "eyebrow": "Langkah berikutnya",
+    "heading": "Hubungi tim Ocean Space.",
+    "desc": "Buka halaman kontak atau lihat lowongan yang sedang dibuka.",
+    "ctaCorporate": "Hubungi tim korporat",
+    "ctaCareers": "Lihat peluang karier"
+  }
+}

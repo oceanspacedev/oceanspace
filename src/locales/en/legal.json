@@ -1,0 +1,72 @@
+{
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Ocean Space Privacy Policy",
+    "summary": "This policy explains how Ocean Space collects, uses, stores, and protects personal data from website visitors, partners, and job applicants.",
+    "lastUpdated": "Last updated: July 22, 2026",
+    "sections": {
+      "dataCollected": {
+        "title": "Data We Collect",
+        "desc": "Data may include identity and contact details submitted through forms (name, email, phone number, resume/CV), technical site visitation data (IP address, device type, visited pages), as well as direct corporate correspondence."
+      },
+      "purpose": {
+        "title": "Purpose of Use",
+        "desc": "We use collected data to answer business inquiries, process recruitment candidacies, maintain website security, optimize our services, and satisfy applicable legal regulations in Indonesia."
+      },
+      "subprocessors": {
+        "title": "Sub-processors & Data Processing (DPA)",
+        "descPart1": "For web operations and hiring pipelines, Ocean Space may utilize third-party sub-processors, including web hosting, email infrastructure, and recruitment APIs at ",
+        "descPart2": ". Data access is strictly limited to service operational necessities."
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "desc": "You may request access, rectification, or deletion of your personal data by contacting our Head Office via our contact page. We process all requests in compliance with applicable data protection laws."
+      },
+      "contact": {
+        "title": "Contact",
+        "descPart1": "Head Office: Jl. Pantai Maju Bersama RGII No. 27–28, Pantai Indah Kapuk, North Jakarta, 14460. For privacy inquiries, reach out through our ",
+        "contactLink": "Contact Page",
+        "descPart2": "."
+      }
+    },
+    "nextSteps": {
+      "eyebrow": "Next steps",
+      "ctaCorporate": "Contact Corporate Team",
+      "ctaHome": "Return to Home"
+    }
+  },
+  "subprocessors": {
+    "eyebrow": "Legal",
+    "title": "Sub-processors & Data Processing Agreement (DPA)",
+    "summary": "Disclosure of sub-processors and data-processing services utilized by Ocean Space for site hosting and recruitment operations.",
+    "lastUpdated": "Last updated: July 22, 2026",
+    "sections": {
+      "hosting": {
+        "title": "Website Hosting",
+        "desc": "Web infrastructure hosting oceanspace.co.id, including static assets and content delivery. Purpose: Ensuring site availability and security for visitors, partners, and job candidates."
+      },
+      "api": {
+        "title": "Recruitment API (Complete Selular / CESA)",
+        "descPart1": "Services hosted on ",
+        "descPart2": " power career listings and application submissions. Purpose: Processing candidate data for screening and recruitment correspondence."
+      },
+      "social": {
+        "title": "Social Platforms",
+        "desc": "LinkedIn and Instagram are used for corporate news and career updates. Interactions on these platforms adhere to each provider's privacy policies."
+      },
+      "dpa": {
+        "title": "Data Processing Agreement",
+        "descPart1": "For DPA inquiries or personal data requests, reach our Head Office through the ",
+        "contactLink": "Contact Page",
+        "descPart2": " and refer to our ",
+        "privacyLink": "Privacy Policy",
+        "descPart3": "."
+      }
+    },
+    "nextSteps": {
+      "eyebrow": "Next steps",
+      "ctaPrivacy": "Read Privacy Policy",
+      "ctaCorporate": "Contact Corporate Team"
+    }
+  }
+}

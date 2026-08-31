@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "eyebrow": "Kontak & Lokasi",
+    "heading": "Hubungi Tim Ocean Space.",
+    "desc": "Diskusikan kemitraan bisnis, ekspansi distribusi ritel, atau pertanyaan umum dengan tim manajemen korporat kami.",
+    "jakartaOffice": {
+      "tag": "Head Office · Jakarta",
+      "badge": "PIK Jakarta Utara",
+      "name": "Pantai Indah Kapuk (PIK)",
+      "address": "Rukan Golf Island Blok RGII No. 27–28, Jl. Pantai Maju Bersama, Pantai Indah Kapuk (PIK), Kamal Muara, Penjaringan, Jakarta Utara, DKI Jakarta 14470"
+    },
+    "cirebonOffice": {
+      "tag": "Head Office · Cirebon",
+      "badge": "Jawa Barat",
+      "name": "Petratean, Pekalipan",
+      "address": "Jl. Petratean No. 11B, Pekalipan, Kec. Pekalipan, Kota Cirebon, Jawa Barat 45118"
+    }
+  },
+  "form": {
+    "heading": "Kirim Pesan Korporat",
+    "desc": "Respon cepat melalui saluran resmi komunikasi kami.",
+    "online": "Online",
+    "nameLabel": "Nama Lengkap",
+    "namePlaceholder": "Masukkan nama lengkap Anda",
+    "emailLabel": "Email Bisnis / Pribadi",
+    "emailPlaceholder": "nama@perusahaan.com",
+    "messageLabel": "Pesan / Keperluan",
+    "messagePlaceholder": "Tuliskan pesan, tujuan kolaborasi, atau pertanyaan Anda...",
+    "submitting": "Menyiapkan Pesan...",
+    "submit": "Kirim Pesan via WhatsApp",
+    "successTitle": "Membuka WhatsApp Korporat...",
+    "successDesc": "Pesan Anda siap dikirimkan. Jika percakapan WhatsApp tidak terbuka otomatis, silakan klik tombol di bawah.",
+    "openWaAgain": "Buka WhatsApp Lagi",
+    "writeNewMessage": "Tulis Pesan Baru"
+  },
+  "facilities": {
+    "eyebrow": "Fasilitas & Lingkungan Kerja",
+    "heading": "Ruang Kerja & Kolaborasi Terpadu.",
+    "desc": "Fasilitas kantor representatif yang dirancang untuk mendukung operasional profesional, transparansi, dan sinergi seluruh unit grup Ocean Space.",
+    "expandLabel": "Klik untuk perbesar",
+    "closeModal": "Tutup preview gambar",
+    "cards": {
+      "lobby": {
+        "tag": "Headquarters · Jakarta",
+        "title": "Lobi Utama & Lounge",
+        "desc": "Area penerimaan tamu dan lounge resmi Ocean Space."
+      },
+      "entrance": {
+        "tag": "Exterior Building",
+        "title": "Akses Masuk & Fasad Gedung",
+        "desc": "Akses utama dan fasad gedung kantor operasional."
+      },
+      "meeting": {
+        "tag": "Boardroom",
+        "title": "Smart Meeting Room",
+        "desc": "Ruang rapat eksekutif dengan display interaktif."
+      },
+      "collab": {
+        "tag": "Discussion Hub",
+        "title": "Collaboration Room",
+        "desc": "Ruang diskusi dan brainstorming kreatif tim."
+      }
+    }
+  }
+}
